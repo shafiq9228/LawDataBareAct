@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE BHARATIYA NYAYA SANHITA, 2023</title>
+    <link rel="stylesheet" href="./index.css">
+
+    <script>
+        let originalData = [];
+        async function loadChaptersData() {
+            try {
+                const response = await fetch('B_N_S_2023.json'); // Replace with actual path
+                originalData = await response.json(); // Store data globally
+                loadChapters(originalData.topics); // Initial rendering
+            } catch (error) {
+                console.error("Error loading chapters:", error);
+            }
+        }
+        async function loadChapters(chapters) {
+            try {
+                const container = document.getElementById('accordion-container');
+                container.innerHTML = "";
+
+                let sectionStart = 1; // Start section numbering from 1
+
+                chapters.forEach((items, chapterIndex) => {
+                    const chapterAccordion = document.createElement('div');
+                    chapterAccordion.classList.add('accordion');
+
+                    const chapterHeader = document.createElement('div');
+                    chapterHeader.classList.add('accordion-header');
+
+                    const sectionEnd = sectionStart + (items.sections?.length || 0) - 1;
+                    const sectionRange = items.sections?.length === 1
+                        ? ` (${sectionStart})`
+                        : ` (${sectionStart} to ${sectionEnd})`;
+
+                    chapterHeader.textContent = customTitleCase(items.chapter) + sectionRange;
+                    chapterHeader.setAttribute('onclick', `toggleAccordion('chapter-${chapterIndex}')`);
+                    chapterAccordion.appendChild(chapterHeader);
+
+                    const chapterContent = document.createElement('div');
+                    chapterContent.id = `chapter-${chapterIndex}`;
+                    chapterContent.classList.add('accordion-content');
+
+                    items.sections.forEach((section, sectionIndex) => {
+                        const sectionDiv = document.createElement('div');
+                        sectionDiv.classList.add('section');
+
+                        // Add subChapter if it exists
+                        if (section.subChapter) {
+                            const subChapterParagraph = document.createElement('p');
+                            subChapterParagraph.classList.add('subchapter');
+                            subChapterParagraph.textContent = section.subChapter;
+                            sectionDiv.appendChild(subChapterParagraph);
+                        }
+
+                        const sectionHeader = document.createElement('div');
+                        sectionHeader.classList.add('section-header');
+                        sectionHeader.innerHTML = section.title;
+                        sectionHeader.setAttribute('onclick', `toggleSection('section-${chapterIndex}-${sectionIndex}')`);
+                        sectionDiv.appendChild(sectionHeader);
+
+                        const sectionContent = document.createElement('div');
+                        sectionContent.id = `section-${chapterIndex}-${sectionIndex}`;
+                        sectionContent.classList.add('section-content');
+
+                        const descriptionList = document.createElement('ul');
+                        section.description.forEach((desc, descIndex) => {
+                            const listItem = document.createElement('li');
+                            listItem.innerHTML = makeBoldWords(desc);
+
+                            const translateSingleLineButton = document.createElement('span');
+                            translateSingleLineButton.textContent = 'Simple English ';
+                            translateSingleLineButton.classList.add('translate-btn-inline');
+                            translateSingleLineButton.onclick = () => {
+                                translateText(desc, `translated-${chapterIndex}-${sectionIndex}`, "english");
+                                showClearButton();
+                            };
+
+                            const translateHinglishButton = document.createElement('span');
+                            translateHinglishButton.textContent = "Hinglish";
+                            translateHinglishButton.classList.add('translate-btn-inline');
+                            translateHinglishButton.onclick = () => {
+                                translateText(desc, `translated-${chapterIndex}-${sectionIndex}`, "hinglish");
+                                showClearButton();
+                            };
+
+                            listItem.appendChild(translateSingleLineButton);
+                            listItem.appendChild(translateHinglishButton);
+                            descriptionList.appendChild(listItem);
+                        });
+                        sectionContent.appendChild(descriptionList);
+
+                        const fullDescription = section.description.join(" ");
+
+                        function setActiveButton(activeButton) {
+                            const buttons = document.querySelectorAll('.translate-btn');
+                            buttons.forEach(button => {
+                                button.classList.remove('active');
+                            });
+                            activeButton.classList.add('active');
+                        }
+
+                        const translateButton = document.createElement('button');
+                        translateButton.textContent = 'Translate In Hindi';
+                        translateButton.classList.add('translate-btn');
+                        translateButton.onclick = () => {
+                            translateText(fullDescription, `translated-${chapterIndex}-${sectionIndex}`, "hindi");
+                            showClearButton();
+                            setActiveButton(translateButton);
+                        };
+
+                        const translateEnglishButton = document.createElement('button');
+                        translateEnglishButton.textContent = 'In Simple English';
+                        translateEnglishButton.classList.add('translate-btn');
+                        translateEnglishButton.onclick = () => {
+                            translateText(section.description, `translated-${chapterIndex}-${sectionIndex}`, "english");
+                            showClearButton();
+                            setActiveButton(translateEnglishButton);
+                        };
+
+                        const translateHinglishMoreButton = document.createElement('button');
+                        translateHinglishMoreButton.textContent = 'Details';
+                        translateHinglishMoreButton.classList.add('translate-btn');
+                        translateHinglishMoreButton.onclick = () => {
+                            translateText(section.description, `translated-${chapterIndex}-${sectionIndex}`, "hinglishMore", section.title);
+                            showClearButton();
+                            setActiveButton(translateHinglishMoreButton);
+                        };
+
+                        const translateHinglishButton = document.createElement('button');
+                        translateHinglishButton.textContent = "Hinglish";
+                        translateHinglishButton.classList.add('translate-btn');
+                        translateHinglishButton.onclick = () => {
+                            translateText(section.description, `translated-${chapterIndex}-${sectionIndex}`, "hinglish", section.title);
+                            showClearButton();
+                            setActiveButton(translateHinglishButton);
+                        };
+
+                        const userInput = document.createElement("input");
+                        userInput.type = "text";
+                        userInput.placeholder = "Enter text to translate...";
+                        userInput.classList.add("user-input");
+
+                        const submitButton = document.createElement("button");
+                        submitButton.textContent = "Translate Custom Text";
+                        submitButton.classList.add("translate-btn");
+                        submitButton.onclick = () => {
+                            const customText = userInput.value.trim();
+                            if (customText !== "") {
+                                translateText(customText, `translated-${chapterIndex}-${sectionIndex}`, "custom");
+                                showClearButton();
+                                setActiveButton(submitButton);
+                                userInput.value = ""
+                            }
+                        };
+
+                        const translatedText = document.createElement('p');
+                        translatedText.id = `translated-${chapterIndex}-${sectionIndex}`;
+                        translatedText.classList.add('translated-text');
+
+                        const clearButton = document.createElement('button');
+                        clearButton.textContent = 'Clear';
+                        clearButton.classList.add('translate-btn');
+                        clearButton.style.display = 'none';
+                        clearButton.onclick = () => {
+                            translatedText.textContent = "";
+                            clearButton.style.display = 'none';
+                            setActiveButton(null);
+                        };
+
+                        sectionContent.appendChild(translateButton);
+                        sectionContent.appendChild(translateEnglishButton);
+                        sectionContent.appendChild(translateHinglishButton);
+                        sectionContent.appendChild(translateHinglishMoreButton);
+                        sectionContent.appendChild(userInput);
+                        sectionContent.appendChild(submitButton);
+                        sectionContent.appendChild(translatedText);
+                        sectionContent.appendChild(clearButton);
+
+                        sectionDiv.appendChild(sectionContent);
+                        chapterContent.appendChild(sectionDiv);
+
+                        function showClearButton() {
+                            setTimeout(() => {
+                                if (translatedText.textContent.trim() !== "") {
+                                    clearButton.style.display = 'inline-block';
+                                }
+                            }, 600);
+                        }
+                    });
+
+                    chapterAccordion.appendChild(chapterContent);
+                    container.appendChild(chapterAccordion);
+
+                    // Update section start for the next chapter
+                    sectionStart = sectionEnd + 1;
+                });
+
+                function customTitleCase(str) {
+                    let words = str.split(' ');
+
+                    if (words.length > 1) {
+                        words[0] = words[0].charAt(0).toUpperCase() + words[0].slice(1).toLowerCase();
+                        words[1] = words[1].toUpperCase();
+                        for (let i = 2; i < words.length; i++) {
+                            words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1).toLowerCase();
+                        }
+                    } else {
+                        words[0] = words[0].charAt(0).toUpperCase() + words[0].slice(1).toLowerCase();
+                    }
+
+                    return words.join(' ');
+                }
+            } catch (error) {
+                console.log(error)
+            }
+        }
+        // Function to make 'Illustrations' and 'Explanation' bold
+        function makeBoldWords(text) {
+            return text.replace(/(Illustrations|Explanation|Illustration)/gi, '<strong>$1</strong>');
+        }
+
+        async function translateText(text, targetElementId, lang, title) {
+            // document.getElementById("loader").style.display = "flex";
+
+            try {
+                const queryText = lang == "hindi" ? text + " - Convert this into simple Hindi which Indians use in 2025" :
+                    lang == "english" ? text + " - Convert this into very simple English" :
+                        lang == "hinglishMore" ? `Explain in detail section ${title} of BHARATIYA NYAYA SANHITA with examples` :
+                            lang == "custom" ? text : text + " - Translate this in Hinglish and highlight difficult English words with brackets";
+
+                const targetElement = document.getElementById(targetElementId);
+                targetElement.innerHTML = ""; // Clear previous content
+
+                // ✅ Show the query in the UI before making the request
+                const queryParagraph = document.createElement('p');
+                queryParagraph.className = "query-text";
+                queryParagraph.style.fontWeight = "bold";
+                queryParagraph.style.marginBottom = "10px";
+                queryParagraph.textContent = lang == "hinglishMore" ? "Query: " +  queryText : "";
+                targetElement.appendChild(queryParagraph);
+
+                const response = await fetch('https://law.cartelcouriers.co.in/lawDoc/chatStream', {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "apikey": "243601"
+                    },
+                    body: JSON.stringify({
+                        message: queryText,
+                        model: "gpt-4o-mini",
+                        role: "user",
+                        store: true
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+
+                const paragraph = document.createElement('p');
+                paragraph.style.lineHeight = "28px";
+                paragraph.className = lang === "hindi" ? "hind-semibold" : "translated-text";
+                targetElement.appendChild(paragraph);
+
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let completeText = ""; // Store response incrementally
+
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+
+                    const chunk = decoder.decode(value, { stream: true });
+
+                    // Process only new chunk, not entire content again
+                    completeText += chunk;
+                    paragraph.innerHTML = formatText(completeText, lang === "hinglishMore");
+
+                    // Smooth scrolling effect (optional)
+                    targetElement.scrollTop = targetElement.scrollHeight;
+                }
+
+                const translateSpeechButton = document.createElement('button');
+                translateSpeechButton.textContent = "Listen 🔈";
+                translateSpeechButton.classList.add('translate-btn');
+                translateSpeechButton.onclick = () => {
+                    translateSpeech(completeText);
+                };
+
+                targetElement.appendChild(translateSpeechButton);
+            } catch (error) {
+                console.error("Translation error:", error);
+                document.getElementById(targetElementId).textContent = "Error translating text.";
+            } finally {
+                document.getElementById("loader").style.display = "none";
+            }
+        }
+
+        // **Function to handle proper formatting**
+        function formatText(text, details) {
+            if (details) {
+                // Convert headings ### and #### into h3 and h4 tags
+                text = text.replace(/^###\s*(.*)/gm, "<h3>$1</h3>");
+                text = text.replace(/^####\s*(.*)/gm, "<h4>$1</h4>");
+
+                // Convert **bold text** into <b> tags
+                text = text.replace(/\*\*(.*?)\*\*/g, "<b>$1</b>");
+
+                // Ensure numbered lists `(1)`, `(2)`, etc., start on a new line
+                text = text.replace(/\(\d+\)/g, match => `<br>${match}`);
+
+                // Ensure `।` gets a line break after it
+                text = text.replace(/।/g, "।<br>");
+
+                // Other patterns that should start on a new line
+                let patterns = [
+                    "\\(a\\)", "\\(b\\)", "\\(c\\)", "\\(d\\)", "\\(e\\)", "\\(f\\)", "\\(g\\)", "\\(h\\)", "\\(i\\)", "\\(j\\)", "\\(k\\)", "\\(l\\)",
+                    "\\(m\\)", "\\(n\\)", "\\(o\\)", "\\(p\\)", "\\(i\\)", "\\(ii\\)", "\\(iii\\)", "\\(iv\\)", "\\(v\\)", "\\(vi\\)", "\\(vii\\)",
+                    "\\(viii\\)", "\\(ix\\)", "\\(x\\)", "\\(क\\)", "\\(ख\\)", "\\(ग\\)", "\\(घ\\)"
+                ];
+
+                // Add number patterns dynamically
+                for (let i = 1; i <= 10; i++) {
+                    patterns.push(`\\b${i}\\.`); // Matches "1.", "2.", ..., "10."
+                }
+
+                // Add <br> before these patterns when they appear at the beginning or after whitespace
+                patterns.forEach(pattern => {
+                    let regex = new RegExp(`(^|\\s)(${pattern})`, 'g');
+                    text = text.replace(regex, "$1<br>$2");
+                });
+
+                // Ensure `<br>` is added only before actual patterns, not breaking text
+                text = text.replace(/<br>\s*-\s*/g, " - "); // Prevents breaking lists
+                text = text.replace(/(<br>\s*){2,}/g, "<br>"); // Removes extra line breaks
+
+                return text.trim();
+            } else {
+                let arr = [
+                    "(a)", "(b)", "(c)", "(d)", "(e)", "(f)", "(g)", "(h)", "(i)", "(j)", "(k)", "(l)",
+                    "(m)", "(n)", "(o)", "(p)", "(i)", "(ii)", "(iii)", "(iv)", "(v)", "(vi)", "(vii)",
+                    "(viii)", "(ix)", "(x)", "(1)", "(2)", "(3)", "(4)", "(5)", "(6)", "(7)", "(8)",
+                    "(9)", "(10)", "(क)", "(ख)", "(ग)", "(घ)", "।"
+                ];
+
+                // Convert bold text **text** → <strong>text</strong>
+                text = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+
+                // Convert Headings: #### → <h3>, ### → <h4>
+                text = text.replace(/####\s*(.*?)/g, "<h3>$1</h3>");
+                text = text.replace(/###\s*(.*?)/g, "<h4>$1</h4>");
+
+                // Prevent Unnecessary Number Formatting (Avoids cases of "1.", "2." being misinterpreted)
+                text = text.replace(/(^|\n)(\d+)\.\s/g, "$1<strong>$2.</strong> ");
+
+                // Format Section Numbers like (1), (2), (3)
+                arr.forEach(substring => {
+                    let escapedSubstring = substring.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                    let regex = new RegExp(`\\\\?${escapedSubstring}`, 'g'); // Handles escaped cases
+
+                    if (substring === "*") {
+                        text = text.replace(regex, "<br>* ");
+                    } else if (substring === "।") {
+                        text = text.replace(regex, substring + "<br>");
+                    } else {
+                        text = text.replace(regex, "<br>" + substring);
+                    }
+                });
+
+                return text;
+
+            }
+        }
+
+        let audioElement = null;
+        async function translateSpeech(text, targetElementId, lang, title) {
+            document.getElementById("loader").style.display = "flex";
+            try {
+                const response = await fetch('https://law.cartelcouriers.co.in/lawDoc/translateTextToAudio', {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "apikey": "243601"
+                    },
+                    body: JSON.stringify({
+                        languageCode: "en-IN",
+                        name: "en-IN-Neural2-C",
+                        text
+                    })
+                });
+                const data = await response.json();
+
+                if (data.status === 1 && data.data) {
+                    // Stop any previous audio before playing new one
+                    if (audioElement) {
+                        audioElement.pause();
+                        audioElement.currentTime = 0;
+                    }
+
+                    audioElement = new Audio(data.data);
+                    audioElement.play();
+
+                    // Stop audio if user switches tabs
+                    document.addEventListener("visibilitychange", () => {
+                        if (document.hidden && audioElement) {
+                            audioElement.pause();
+                        }
+                    });
+                    document.addEventListener("click", () => {
+                        if (audioElement) {
+                            audioElement.pause();
+                        }
+                    });
+
+                    audioElement.onended = () => {
+                        audioElement = null; // Reset when audio is done
+                    };
+                } else {
+                    console.error("Error fetching audio:", data.message);
+                }
+            } catch (error) {
+                console.log(error)
+            } finally {
+                document.getElementById("loader").style.display = "none";
+            }
+        }
+
+        // Function to toggle chapters (single open at a time)
+        function toggleAccordion(id) {
+            const content = document.getElementById(id);
+            const isActive = content.style.display === 'block';
+
+            // Close all accordions first
+            document.querySelectorAll('.accordion-content').forEach(c => {
+                c.style.display = 'none';
+            });
+            document.querySelectorAll('.accordion-header').forEach(h => h.classList.remove('active'));
+
+            // If the clicked one is not active, open it
+            if (!isActive) {
+                content.style.display = 'block'; 
+                content.scrollIntoView({ behavior: 'smooth', block: 'center' }); // Scroll into view
+                document.querySelector(`[onclick="toggleAccordion('${id}')"]`).classList.add('active');
+            }
+        }
+
+        // Function to toggle sections (multiple open)
+        function toggleSection(id) {
+            const content = document.getElementById(id);
+            const isActive = content.style.display === 'block';
+
+            // Close all sections first
+            document.querySelectorAll('.section-content').forEach(c => {
+                c.style.display = 'none';
+            });
+            document.querySelectorAll('.section-header').forEach(h => h.classList.remove('active'));
+
+            // If the clicked one is not active, open it
+            if (!isActive) {
+                content.style.display = 'block';
+                document.querySelector(`[onclick="toggleSection('${id}')"]`).classList.add('active');
+                content.scrollIntoView({ behavior: 'smooth', block: 'center' }); // Scroll into view
+            }
+        }
+        function searchChapters() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+
+            if (!query) {
+                loadChapters(originalData.topics); // Reset to full list
+                return;
+            }
+
+            const filteredChapters = originalData.topics.map((chapter) => {
+                const filteredSections = chapter.sections.map((section) => {
+                    let titleMatch = section.title.toLowerCase().includes(query);
+                    let matchedDescriptions = section.description.filter(desc => desc.toLowerCase().includes(query));
+
+                    if (titleMatch || matchedDescriptions.length > 0) {
+                        return {
+                            ...section,
+                            title: highlightMatch(section.title, query),
+                            description: section.description.map(desc => highlightMatch(desc, query))
+                        };
+                    }
+                    return null;
+                }).filter(section => section !== null);
+
+                if (filteredSections.length > 0) {
+                    return { ...chapter, sections: filteredSections };
+                }
+                return null;
+            }).filter(chapter => chapter !== null);
+
+            loadChapters(filteredChapters);
+        }
+
+        // 🔹 Function to Highlight Matched Words
+        function highlightMatch(text, query) {
+            const regex = new RegExp(`(${query})`, 'gi'); // Case-insensitive match
+            return text.replace(regex, `<span class="highlight">$1</span>`);
+        }
+
+        window.onload = loadChaptersData;
+    </script>
+</head>
+
+<body>
+    <h1>THE BHARATIYA NYAYA SANHITA, 2023</h1>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Enter search text..." oninput="searchChapters()">
+        <!-- <button onclick="searchChapters()">Search</button> -->
+    </div>
+    <div id="accordion-container">
+        <!-- Dynamic Chapters and Sections Will Load Here -->
+    </div>
+    <div class="loader" id="loader">
+        <div></div>
+    </div>
+</body>
+
+</html>

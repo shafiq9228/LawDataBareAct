@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE CODE OF CIVIL PROCEDURE, 1908</title>
+    <link rel="stylesheet" href="./index.css">
+    <script>
+        async function loadChapters() {
+            try {
+                const response = await fetch('./C_P_C_1908.json'); // Replace with the actual path
+                const data = await response.json();
+
+                const container = document.getElementById('accordion-container');
+
+                data.topics.forEach((items, chapterIndex) => {
+                    const chapterAccordion = document.createElement('div');
+                    chapterAccordion.classList.add('accordion');
+
+                    const chapterHeader = document.createElement('div');
+                    chapterHeader.classList.add('accordion-header');
+                    chapterHeader.textContent = customTitleCase(items.chapter);
+                    chapterHeader.setAttribute('onclick', `toggleAccordion('chapter-${chapterIndex}')`);
+                    chapterAccordion.appendChild(chapterHeader);
+
+                    const chapterContent = document.createElement('div');
+                    chapterContent.id = `chapter-${chapterIndex}`;
+                    chapterContent.classList.add('accordion-content');
+
+                    items.sections.forEach((section, sectionIndex) => {
+                        const sectionDiv = document.createElement('div');
+                        sectionDiv.classList.add('section');
+                        // Add subChapter if it exists
+                        if (section.subChapter) {
+                            const subChapterParagraph = document.createElement('p');
+                            subChapterParagraph.classList.add('subchapter');
+                            subChapterParagraph.textContent = section.subChapter;
+                            sectionDiv.appendChild(subChapterParagraph);
+                        }
+
+                        const sectionHeader = document.createElement('div');
+                        sectionHeader.classList.add('section-header');
+                        sectionHeader.textContent = section.title;
+                        sectionHeader.setAttribute('onclick', `toggleSection('section-${chapterIndex}-${sectionIndex}')`);
+                        sectionDiv.appendChild(sectionHeader);
+
+                        const sectionContent = document.createElement('div');
+                        sectionContent.id = `section-${chapterIndex}-${sectionIndex}`;
+                        sectionContent.classList.add('section-content');
+
+                        const descriptionList = document.createElement('ul');
+                        section.description.forEach((desc, descIndex) => {
+                            const listItem = document.createElement('li');
+                            listItem.innerHTML = makeBoldWords(desc); // Bold relevant words dynamically
+
+                            descriptionList.appendChild(listItem);
+                        });
+                        sectionContent.appendChild(descriptionList);
+
+                        const fullDescription = section.description;
+                        // Function to set the active button
+                        function setActiveButton(activeButton) {
+                            // Reset the active state on all buttons
+                            const buttons = document.querySelectorAll('.translate-btn');
+                            buttons.forEach(button => {
+                                button.classList.remove('active');
+                            });
+
+                            // Set the active class on the clicked button
+                            activeButton.classList.add('active');
+                        }
+
+                        const translateButton = document.createElement('button');
+                        translateButton.textContent = 'Translate In Hindi';
+                        translateButton.classList.add('translate-btn');
+                        translateButton.onclick = () => {
+                            translateText(fullDescription, `translated-${chapterIndex}-${sectionIndex}`, "hindi");
+                            showClearButton();
+                            setActiveButton(translateButton); // Set active button
+                        };
+
+                        const translateEnglishButton = document.createElement('button');
+                        translateEnglishButton.textContent = 'In Simple English';
+                        translateEnglishButton.classList.add('translate-btn');
+                        translateEnglishButton.onclick = () => {
+                            translateText(section.description, `translated-${chapterIndex}-${sectionIndex}`, "english");
+                            showClearButton();
+                            setActiveButton(translateEnglishButton); // Set active button
+                        };
+
+                        const translateHinglishMoreButton = document.createElement('button');
+                        translateHinglishMoreButton.textContent = 'Details';
+                        translateHinglishMoreButton.classList.add('translate-btn');
+                        translateHinglishMoreButton.onclick = () => {
+                            translateText(section.description, `translated-${chapterIndex}-${sectionIndex}`, "hinglishMore", section.title);
+                            showClearButton();
+                            setActiveButton(translateHinglishMoreButton); // Set active button
+                        };
+
+                        const translateHinglishButton = document.createElement('button');
+                        translateHinglishButton.textContent = "Hinglish";
+                        translateHinglishButton.classList.add('translate-btn');
+                        translateHinglishButton.onclick = () => {
+                            translateText(section.description, `translated-${chapterIndex}-${sectionIndex}`, "hinglish", section.title);
+                            showClearButton();
+                            setActiveButton(translateHinglishButton); // Set active button
+                        };
+
+                        const translatedText = document.createElement('p');
+                        translatedText.id = `translated-${chapterIndex}-${sectionIndex}`;
+                        translatedText.classList.add('translated-text');
+
+                        // 🔹 Clear Button (Initially Hidden)
+                        const clearButton = document.createElement('button');
+                        clearButton.textContent = 'Clear';
+                        clearButton.classList.add('translate-btn');
+                        clearButton.style.display = 'none';
+                        clearButton.onclick = () => {
+                            translatedText.textContent = "";
+                            clearButton.style.display = 'none'; // Hide when cleared
+                            // Optionally reset active button when clearing
+                            setActiveButton(null);
+                        };
+
+                        sectionContent.appendChild(translateButton);
+                        sectionContent.appendChild(translateEnglishButton);
+                        sectionContent.appendChild(translateHinglishButton);
+                        sectionContent.appendChild(translateHinglishMoreButton);
+                        sectionContent.appendChild(translatedText);
+                        sectionContent.appendChild(clearButton);
+
+                        function showClearButton() {
+                            setTimeout(() => {
+                                if (translatedText.textContent.trim() !== "") {
+                                    clearButton.style.display = 'inline-block';
+                                }
+                            }, 600);
+                        }
+
+                        sectionDiv.appendChild(sectionContent);
+                        chapterContent.appendChild(sectionDiv);
+                    });
+
+                    chapterAccordion.appendChild(chapterContent);
+                    container.appendChild(chapterAccordion);
+                });
+
+                function customTitleCase(str) {
+                    let words = str.split(' ');
+
+                    if (words.length > 1) {
+                        // Capitalize the first word
+                        words[0] = words[0].charAt(0).toUpperCase() + words[0].slice(1).toLowerCase();
+
+                        // Convert the second word to uppercase
+                        words[1] = words[1].toUpperCase();
+
+                        // Capitalize the rest of the words normally
+                        for (let i = 2; i < words.length; i++) {
+                            words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1).toLowerCase();
+                        }
+                    } else {
+                        // If there’s only one word, just capitalize it
+                        words[0] = words[0].charAt(0).toUpperCase() + words[0].slice(1).toLowerCase();
+                    }
+
+                    return words.join(' ');
+                }
+            } catch (error) {
+                console.error(error)
+            }
+        }
+        // Function to make 'Illustrations' and 'Explanation' bold
+        function makeBoldWords(text) {
+            return text.replace(/(Illustrations|Explanation|Illustration|State Amendment)/gi, '<strong>$1</strong>');
+        }
+
+        // async function translateText(text, targetElementId) {
+        //     document.getElementById("loader").style.display = "flex";
+        //     try {
+        //         const response = await fetch('https://lawdata-2420a.el.r.appspot.com/lawDoc/translateMultiText',
+        //             {
+        //                 method: "POST",
+        //                 headers: {
+        //                     "Authorization": "Bearer ya29.a0AXeO80TExRNrCK8lVvp9_yn3NpjplFbJ8nc0PqE3IntY2chcgHfrsnMVMMbsjKoRRdMxg0dDgjJjxI0sxR5DnvqK2kZuhOTll-kkjN9BdCRmNgu8tH68O6ljVg2T-ZuxSytxvhOjuaX5TIpLBGgl-XFAIBaK1eSIrfQctfDNR9tZGSB0aCgYKAeUSARASFQHGX2MiLQRIx-bS_pYxpd74lNl1pQ0183",
+        //                     "Content-Type": "application/json",
+        //                     "apikey": "243601"
+        //                 },
+        //                 body: JSON.stringify({ "texts": text,"sourceLanguage": "en","targetLanguage": "hi" })
+        //             }
+        //         );
+        //         const result = await response.json();
+        //         if (result?.status == 1) {
+        //             const descriptionList = document.createElement('ul');
+
+        //             result.data.forEach((desc) => {
+        //                 const listItem = document.createElement('li');
+        //                 listItem.innerHTML = desc;
+        //                 listItem.classList.add('hind-semibold')
+        //                 descriptionList.appendChild(listItem);
+        //             });
+
+        //             const targetElement = document.getElementById(targetElementId);
+        //             targetElement.innerHTML = ""; // Clear previous content
+        //             targetElement.appendChild(descriptionList); // ✅ Append the list properly
+        //         } else {
+        //             document.getElementById(targetElementId).textContent = "Translation failed.";
+        //         }
+        //     } catch (error) {
+        //         console.error("Translation error:", error);
+        //         document.getElementById(targetElementId).textContent = "Error translating text.";
+        //     } finally {
+        //         document.getElementById("loader").style.display = "none";
+        //     }
+        // }
+
+        async function translateText(text, targetElementId, lang, title) {
+            // document.getElementById("loader").style.display = "flex";
+
+            try {
+                const response = await fetch('https://law.cartelcouriers.co.in/lawDoc/chatStream', {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "apikey": "243601"
+                    },
+                    body: JSON.stringify({
+                        message: lang == "hindi" ? text + " - Convert this into simple Hindi which Indians use in 2025" :
+                            lang == "english" ? text + " - Convert this into very simple English" :
+                                lang == "hinglishMore" ? `Explain in detail with examples section ${title} of CODE OF CIVIL PROCEDURE, 1908` :
+                                    text + " - Translate this in Hinglish and difficult words in brackets",
+                        model: "gpt-4o-mini",
+                        role: "user",
+                        store: true
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+
+                const targetElement = document.getElementById(targetElementId);
+                targetElement.innerHTML = ""; // Clear previous content
+
+                const paragraph = document.createElement('p');
+                paragraph.style.lineHeight = "28px";
+                paragraph.className = lang === "hindi" ? "hind-semibold" : "translated-text";
+                targetElement.appendChild(paragraph);
+
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let completeText = ""; // Store response incrementally
+
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+
+                    const chunk = decoder.decode(value, { stream: true });
+
+                    // Process only new chunk, not entire content again
+                    completeText += chunk;
+                    paragraph.innerHTML = formatText(completeText);
+
+                    // Smooth scrolling effect (optional)
+                    targetElement.scrollTop = targetElement.scrollHeight;
+                }
+            } catch (error) {
+                console.error("Translation error:", error);
+                document.getElementById(targetElementId).textContent = "Error translating text.";
+            } finally {
+                document.getElementById("loader").style.display = "none";
+            }
+        }
+
+        // **Function to handle proper formatting**
+        function formatText(text) {
+            let arr = ["(a)", "(b)", "(c)", "(d)", "(e)", "(f)", "(g)", "(h)", "(i)", "(j)", "(k)", "(l)",
+                "(m)", "(n)", "(o)", "(p)", "(i)", "(ii)", "(iii)", "(iv)", "(v)", "(vi)", "(vii)",
+                "(viii)", "(ix)", "(x)", "(1)", "(2)", "(3)", "(4)", "(5)", "(6)", "(7)", "(8)",
+                "(9)", "(10)", "####", "###", "**1", "**", "(क)", "(ख)", "(ग)", "(घ)", "।", "1.", "2."];
+
+            arr.forEach(substring => {
+                if (text.includes(substring)) {
+                    if (substring == "**" || substring == "**1" || substring == "###") {
+                        text = text.split(substring).join("<br>" + "*");
+                    } else if (substring == "।") {
+                        text = text.split(substring).join(substring + "<br>");
+                    } else {
+                        text = text.split(substring).join("<br>" + substring);
+                    }
+                }
+            });
+
+            return text;
+        }
+
+
+        // Function to toggle chapters (single open at a time)
+        function toggleAccordion(id) {
+            const content = document.getElementById(id);
+            const isActive = content.style.display === 'block';
+            document.querySelectorAll('.accordion-content').forEach(c => c.style.display = 'none');
+            document.querySelectorAll('.accordion-header').forEach(h => h.classList.remove('active'));
+            if (!isActive) {
+                content.style.display = 'block';
+                document.querySelector(`[onclick="toggleAccordion('${id}')"]`).classList.add('active');
+            }
+        }
+
+        // Function to toggle sections (multiple open)
+        function toggleSection(id) {
+            const content = document.getElementById(id);
+            const isActive = content.style.display === 'block';
+            if (isActive) {
+                content.style.display = 'none';
+                document.querySelector(`[onclick="toggleSection('${id}')"]`).classList.remove('active');
+            } else {
+                content.style.display = 'block';
+                document.querySelector(`[onclick="toggleSection('${id}')"]`).classList.add('active');
+            }
+        }
+
+        window.onload = function () {
+            loadChapters();
+        };
+    </script>
+</head>
+
+<body>
+    <h1>THE CODE OF CIVIL PROCEDURE, 1908</h1>
+
+    <div class="navbar">
+        <a href="./CPC_1908.html" id="bns-link" class="nav-button active">Sections</a>
+        <a href="./C_P_C_1908_orders.html" id="bns-link" class="nav-button ">Orders</a>
+    </div>
+    <div id="accordion-container">
+        <!-- Dynamic Chapters and Sections Will Load Here -->
+    </div>
+    <div class="loader" id="loader">
+        <div></div>
+    </div>
+</body>
+
+</html>
