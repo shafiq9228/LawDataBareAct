@@ -1,7 +1,7 @@
 {
     "topics": [
         {
-            "chapter": "CHAPTER I - PRELIMINARY",
+            "chapter": "CHAPTER I: PRELIMINARY",
             "sections": [
                 {
                     "title": "1. Short title, commencement and application.",
@@ -129,7 +129,7 @@
             ]
         },
         {
-            "chapter": "CHAPTER II - OF PUNISHMENTS",
+            "chapter": "CHAPTER II: OF PUNISHMENTS",
             "sections": [
                 {
                     "title": "4. Punishments.",
@@ -229,7 +229,7 @@
             ]
         },
         {
-            "chapter": "CHAPTER III - GENERAL EXCEPTIONS",
+            "chapter": "CHAPTER III: GENERAL EXCEPTIONS",
             "sections": [
                 {
                     "title": "14. Act done by a person bound, or by mistake of fact believing himself bound, by law.",
@@ -495,7 +495,7 @@
             ]
         },
         {
-            "chapter": "CHAPTER IV - OF ABETMENT, CRIMINAL CONSPIRACY AND ATTEMPT",
+            "chapter": "CHAPTER IV: OF ABETMENT, CRIMINAL CONSPIRACY AND ATTEMPT",
             "sections": [
                 {
                     "subChapter": "of abetment",

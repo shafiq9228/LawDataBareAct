@@ -111,7 +111,7 @@
             ]
         },
         {
-            "chapter": "SUITS IN GENERAL",
+            "chapter": "PART I: SUITS IN GENERAL",
             "sections": [
                 {
                     "title": "9. Courts to try all civil suits unless barred.",
@@ -453,7 +453,7 @@
             ]
         },
         {
-            "chapter": "EXECUTION GENERAL",
+            "chapter": "PART II: EXECUTION GENERAL",
             "sections": [
                 {
                     "title": "36. Application to orders",
@@ -800,12 +800,7 @@
                         "(2) When on the date on which this Code came into operation in any local area, any special rules as to sale of land in execution of decrees were in force therein, the State Government may, by notification in the Official Gazette declare such rules to be in force, or may by a like notification, modify the same. Every notification issued in the exercise of the powers conferred by this sub-section shall set out the rules so continued or modified.",
                         "(3) Every rule made under this section shall be laid, as soon as may be after it is made, before the State Legislature."
                     ]
-                }
-            ]
-        },
-        {
-            "chapter": "DELEGATION TO COLLECTOR OF POWER TO EXECUTE DECREES AGAINST IMMOVABLE PROPERTY",
-            "sections": [
+                },
                 {
                     "title": "68. [Power to prescribe rules for transferring to collector execution of certain decrees]",
                     "description": [

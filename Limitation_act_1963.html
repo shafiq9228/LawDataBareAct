@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THE ANDHDRA PRADESH CIVIL RULES OF PRACTICE AND CIRCULAR ORDERS, 1990</title>
+    <title>THE LIMITATION ACT, 1963</title>
     <link rel="stylesheet" href="./index.css">
     <script>
         let originalData = [];
 
         async function loadChaptersData() {
             try {
-                const response = await fetch('./AP_civil_rule.json'); // Replace with actual path
+                const response = await fetch('./Limitation_act_1963.json'); // Replace with actual path
                 originalData = await response.json(); // Store data globally
                 loadChapters(originalData); // Initial rendering
             } catch (error) {
@@ -212,11 +212,10 @@
 
         async function translateText(text, targetElementId, lang, title) {
             // document.getElementById("loader").style.display = "flex";
-
             try {
                 const queryText = lang == "hindi" ? text + " - Convert this into simple Hindi which Indians use in 2025" :
                     lang == "english" ? text + " - Convert this into very simple English" :
-                        lang == "hinglishMore" ? `Explain in detail section ${title} of THE ANDHDRA PRADESH CIVIL RULES OF PRACTICE AND CIRCULAR ORDERS with examples` :
+                        lang == "hinglishMore" ? `Explain in detail section ${title} of THE LIMITATION ACT with examples` :
                             lang == "custom" ? text : text + " - Translate this in Hinglish and highlight difficult English words with brackets";
 
                 const targetElement = document.getElementById(targetElementId);
@@ -286,7 +285,6 @@
                 document.getElementById("loader").style.display = "none";
             }
         }
-
 
         function makeBoldWords(text) {
             return text.replace(/(Illustrations|Explanation|Illustration)/gi, '<strong>$1</strong>');
@@ -451,9 +449,7 @@
                         text = text.replace(regex, "<br>" + substring);
                     }
                 });
-
                 return text;
-
             }
         }
 
@@ -463,7 +459,6 @@
                 loadChapters(originalData);
                 return;
             }
-
             const filteredChapters = originalData.filter(item =>
                 item.chapter.toLowerCase().includes(query) ||
                 item.section_title.toLowerCase().includes(query) ||
@@ -472,17 +467,23 @@
 
             loadChapters(filteredChapters, query);
         }
-
         window.onload = loadChaptersData;
 
     </script>
 </head>
 
 <body>
-    <h1>THE ANDHDRA PRADESH CIVIL RULES OF PRACTICE AND CIRCULAR ORDERS, 1990</h1>
+    <h1>THE LIMITATION ACT, 1963</h1>
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="Enter search text..." oninput="searchChapters()">
     </div>
+
+    <div class="navbar">
+        <a href="./CPC_1908.html" id="bns-link" class="nav-button ">Sections</a>
+        <a href="./C_P_C_1908_orders.html" id="bns-link" class="nav-button">Orders</a>
+        <a href="./Limitation_act_1963.html" id="bns-link" class="nav-button active">Limitation Act</a>
+    </div>
+
     <div id="accordion-container"></div>
     <div class="loader" id="loader">
         <div></div>

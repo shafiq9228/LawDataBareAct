@@ -28,7 +28,8 @@
 
                     const chapterHeader = document.createElement('div');
                     chapterHeader.classList.add('orders-accordion-header');
-                    chapterHeader.innerHTML = customTitleCase(items.chapter.replace(/\((\d+)\)/g, '<span class="highlight-number">($1)</span>'));
+                    const sectionCount = items.sections?.length || 0;
+                    chapterHeader.innerHTML = customTitleCase(items.chapter.replace(/\((\d+)\)/g , '<span class="highlight-number">($1)</span>') + ` <span class="section-count">[${sectionCount} Rules]</span>`);
                     chapterHeader.setAttribute('onclick', `toggleAccordion('chapter-${chapterIndex}')`);
                     chapterAccordion.appendChild(chapterHeader);
 
@@ -520,6 +521,7 @@
     <div class="navbar">
         <a href="./CPC_1908.html" id="bns-link" class="nav-button ">Sections</a>
         <a href="./C_P_C_1908_orders.html" id="bns-link" class="nav-button active">Orders</a>
+        <a href="./Limitation_act_1963.html" id="bns-link" class="nav-button ">Limitation Act</a>
     </div>
     <div id="accordion-container">
         <!-- Dynamic Chapters and Sections Will Load Here -->

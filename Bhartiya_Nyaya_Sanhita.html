@@ -11,7 +11,7 @@
         let originalData = [];
         async function loadChaptersData() {
             try {
-                const response = await fetch('B_N_S_2023.json'); // Replace with actual path
+                const response = await fetch('Corrected_B_N_S_2023_Latest.json'); // Replace with actual path
                 originalData = await response.json(); // Store data globally
                 loadChapters(originalData.topics); // Initial rendering
             } catch (error) {
@@ -126,7 +126,7 @@
                         translateHinglishMoreButton.textContent = 'Details';
                         translateHinglishMoreButton.classList.add('translate-btn');
                         translateHinglishMoreButton.onclick = () => {
-                            translateText(section.description, `translated-${chapterIndex}-${sectionIndex}`, "hinglishMore", section.title);
+                            translateText(section.description, `translated-${chapterIndex}-${sectionIndex}`, "hinglishMore", section.titleNo);
                             showClearButton();
                             setActiveButton(translateHinglishMoreButton);
                         };
