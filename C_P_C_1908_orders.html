@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE CODE OF CIVIL PROCEDURE, 1908</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="./login.js"></script>
     <script>
         let originalData = [];
         async function loadChaptersData() {
@@ -29,7 +30,7 @@
                     const chapterHeader = document.createElement('div');
                     chapterHeader.classList.add('orders-accordion-header');
                     const sectionCount = items.sections?.length || 0;
-                    chapterHeader.innerHTML = customTitleCase(items.chapter.replace(/\((\d+)\)/g , '<span class="highlight-number">($1)</span>') + ` <span class="section-count">[${sectionCount} Rules]</span>`);
+                    chapterHeader.innerHTML = customTitleCase(items.chapter.replace(/\((\d+)\)/g, '<span class="highlight-number">($1)</span>') + ` <span class="section-count">[${sectionCount} Rules]</span>`);
                     chapterHeader.setAttribute('onclick', `toggleAccordion('chapter-${chapterIndex}')`);
                     chapterAccordion.appendChild(chapterHeader);
 
@@ -229,27 +230,28 @@
             // document.getElementById("loader").style.display = "flex";
 
             const queryText = lang == "hindi" ? text + " - Convert this into simple Hindi which Indians use in 2025" :
-                            lang == "english" ? text + " - Convert this into very simple English" :
-                                lang == "hinglishMore" ? `Explain in detail order ${order} and rule ${title} of CODE OF CIVIL PROCEDURE with examples` :
-                                    lang == "custom" ? text : text + " - Translate this in Hinglish and highlight difficult english words in brackets"
+                lang == "english" ? text + " - Convert this into very simple English" :
+                    lang == "hinglishMore" ? `Explain in detail order ${order} and rule ${title} of CODE OF CIVIL PROCEDURE in simple english and define difficult words` :
+                        lang == "custom" ? text : text + " - Translate this in Hinglish and highlight difficult english words in brackets"
 
-                const targetElement = document.getElementById(targetElementId);
-                targetElement.innerHTML = ""; // Clear previous content
+            const targetElement = document.getElementById(targetElementId);
+            targetElement.innerHTML = ""; // Clear previous content
 
-                // ✅ Show the query in the UI before making the request
-                const queryParagraph = document.createElement('p');
-                queryParagraph.className = "query-text";
-                queryParagraph.style.fontWeight = "bold";
-                queryParagraph.style.marginBottom = "10px";
-                queryParagraph.textContent = lang == "hinglishMore" ? "Query: " +  queryText : "";
-                targetElement.appendChild(queryParagraph);
+            // ✅ Show the query in the UI before making the request
+            const queryParagraph = document.createElement('p');
+            queryParagraph.className = "query-text";
+            queryParagraph.style.fontWeight = "bold";
+            queryParagraph.style.marginBottom = "10px";
+            queryParagraph.textContent = lang == "hinglishMore" ? "Query: " + queryText : "";
+            targetElement.appendChild(queryParagraph);
 
             try {
                 const response = await fetch('https://law.cartelcouriers.co.in/lawDoc/chatStream', {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
-                        "apikey": "243601"
+                        "apikey": "243601",
+                        "Authorization": localStorage.getItem("token")
                     },
                     body: JSON.stringify({
                         message: queryText,
@@ -386,7 +388,8 @@
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
-                        "apikey": "243601"
+                        "apikey": "243601",
+                        "Authorization": localStorage.getItem("token")
                     },
                     body: JSON.stringify({
                         languageCode: "en-IN",
@@ -512,22 +515,32 @@
 </head>
 
 <body>
-    <h1>THE CODE OF CIVIL PROCEDURE, 1908</h1>
-    <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Enter search text..." oninput="searchChapters()">
-        <!-- <button onclick="searchChapters()">Search</button> -->
-    </div>
-
     <div class="navbar">
-        <a href="./CPC_1908.html" id="bns-link" class="nav-button ">Sections</a>
-        <a href="./C_P_C_1908_orders.html" id="bns-link" class="nav-button active">Orders</a>
-        <a href="./Limitation_act_1963.html" id="bns-link" class="nav-button ">Limitation Act</a>
+        <div>
+            <h1>LAW DATA.</h1>
+        </div>
+        <div>
+            <a href="./index.html" class="home">Home</a>
+        </div>
     </div>
-    <div id="accordion-container">
-        <!-- Dynamic Chapters and Sections Will Load Here -->
-    </div>
-    <div class="loader" id="loader">
-        <div></div>
+    <div class="container">
+        <h1>THE CODE OF CIVIL PROCEDURE, 1908</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter search text..." oninput="searchChapters()">
+            <!-- <button onclick="searchChapters()">Search</button> -->
+        </div>
+
+        <div class="navbar01">
+            <a href="./CPC_1908.html" id="bns-link" class="nav-button">Sections</a>
+            <a href="./C_P_C_1908_orders.html" id="bns-link" class="nav-button active">Orders</a>
+            <a href="./Limitation_act_1963.html" id="bns-link" class="nav-button ">Limitation Act</a>
+        </div>
+        <div id="accordion-container">
+            <!-- Dynamic Chapters and Sections Will Load Here -->
+        </div>
+        <div class="loader" id="loader">
+            <div></div>
+        </div>
     </div>
 </body>
 

@@ -7,6 +7,8 @@
     <title>THE BHARATIYA NYAYA SANHITA, 2023</title>
     <link rel="stylesheet" href="./index.css">
 
+    <script src="./login.js"></script>
+
     <script>
         let originalData = [];
         async function loadChaptersData() {
@@ -230,7 +232,7 @@
             try {
                 const queryText = lang == "hindi" ? text + " - Convert this into simple Hindi which Indians use in 2025" :
                     lang == "english" ? text + " - Convert this into very simple English" :
-                        lang == "hinglishMore" ? `Explain in detail section ${title} of BHARATIYA NYAYA SANHITA with examples` :
+                        lang == "hinglishMore" ? `Explain in detail section ${title} of BHARATIYA NYAYA SANHITA in simple english and define difficult words` :
                             lang == "custom" ? text : text + " - Translate this in Hinglish and highlight difficult English words with brackets";
 
                 const targetElement = document.getElementById(targetElementId);
@@ -248,7 +250,8 @@
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
-                        "apikey": "243601"
+                        "apikey": "243601",
+                        "Authorization": localStorage.getItem("token")
                     },
                     body: JSON.stringify({
                         message: queryText,
@@ -385,7 +388,8 @@
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
-                        "apikey": "243601"
+                        "apikey": "243601",
+                        "Authorization": localStorage.getItem("token")
                     },
                     body: JSON.stringify({
                         languageCode: "en-IN",
@@ -510,7 +514,16 @@
 </head>
 
 <body>
-    <h1>THE BHARATIYA NYAYA SANHITA, 2023</h1>
+    <div class="navbar">
+        <div>
+            <h1>LAW DATA.</h1>
+        </div>
+        <div>
+            <a href="./index.html" class="home">Home</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>THE BHARATIYA NYAYA SANHITA, 2023</h1>
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="Enter search text..." oninput="searchChapters()">
         <!-- <button onclick="searchChapters()">Search</button> -->
@@ -520,6 +533,7 @@
     </div>
     <div class="loader" id="loader">
         <div></div>
+    </div>
     </div>
 </body>
 

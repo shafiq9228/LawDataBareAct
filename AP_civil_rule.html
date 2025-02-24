@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE ANDHDRA PRADESH CIVIL RULES OF PRACTICE AND CIRCULAR ORDERS, 1990</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="./login.js"></script>
     <script>
         let originalData = [];
 
@@ -67,7 +68,7 @@
 
                         const sectionHeader = document.createElement('div');
                         sectionHeader.classList.add('section-header');
-                        sectionHeader.innerHTML = highlightMatch(`<b>Section ${section.section_no}:</b> ${section.section_title}`, query);
+                        sectionHeader.innerHTML = highlightMatch(`<b>Rule ${section.section_no}:</b> ${section.section_title}`, query);
                         sectionHeader.setAttribute('onclick', `toggleSection('section-${chapterIndex}-${sectionIndex}')`);
                         sectionDiv.appendChild(sectionHeader);
 
@@ -216,7 +217,7 @@
             try {
                 const queryText = lang == "hindi" ? text + " - Convert this into simple Hindi which Indians use in 2025" :
                     lang == "english" ? text + " - Convert this into very simple English" :
-                        lang == "hinglishMore" ? `Explain in detail section ${title} of THE ANDHDRA PRADESH CIVIL RULES OF PRACTICE AND CIRCULAR ORDERS with examples` :
+                        lang == "hinglishMore" ? `Explain in detail Rule ${title} of THE ANDHDRA PRADESH CIVIL RULES OF PRACTICE AND CIRCULAR ORDERS in simple english and define difficult words` :
                             lang == "custom" ? text : text + " - Translate this in Hinglish and highlight difficult English words with brackets";
 
                 const targetElement = document.getElementById(targetElementId);
@@ -234,7 +235,8 @@
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
-                        "apikey": "243601"
+                        "apikey": "243601",
+                        "Authorization": localStorage.getItem("token")
                     },
                     body: JSON.stringify({
                         message: queryText,
@@ -306,7 +308,8 @@
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
-                        "apikey": "243601"
+                        "apikey": "243601",
+                        "Authorization": localStorage.getItem("token")
                     },
                     body: JSON.stringify({
                         languageCode: "en-IN",
@@ -479,13 +482,23 @@
 </head>
 
 <body>
-    <h1>THE ANDHDRA PRADESH CIVIL RULES OF PRACTICE AND CIRCULAR ORDERS, 1990</h1>
-    <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Enter search text..." oninput="searchChapters()">
+    <div class="navbar">
+        <div>
+            <h1>LAW DATA.</h1>
+        </div>
+        <div>
+            <a href="./index.html" class="home">Home</a>
+        </div>
     </div>
-    <div id="accordion-container"></div>
-    <div class="loader" id="loader">
-        <div></div>
+    <div class="container">
+        <h1>THE ANDHDRA PRADESH CIVIL RULES OF PRACTICE AND CIRCULAR ORDERS, 1990</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter search text..." oninput="searchChapters()">
+        </div>
+        <div id="accordion-container"></div>
+        <div class="loader" id="loader">
+            <div></div>
+        </div>
     </div>
 </body>
 

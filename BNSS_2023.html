@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE BHARATIYA NAGARIK SURAKSHA SANHITA, 2023</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="./login.js"></script>
     <script>
         let originalData = [];
         async function loadChaptersData() {
@@ -229,7 +230,7 @@
             try {
                 const queryText = lang == "hindi" ? text + " - Convert this into simple Hindi which Indians use in 2025" :
                     lang == "english" ? text + " - Convert this into very simple English" :
-                        lang == "hinglishMore" ? `Explain in detail section ${title} of BHARATIYA NAGARIK SURAKSHA SANHITA, with examples` :
+                        lang == "hinglishMore" ? `Explain in detail section ${title} of BHARATIYA NAGARIK SURAKSHA SANHITA, in simple english and define difficult words` :
                             lang == "custom" ? text : text + " - Translate this in Hinglish and highlight difficult English words with brackets";
 
                 const targetElement = document.getElementById(targetElementId);
@@ -240,14 +241,15 @@
                 queryParagraph.className = "query-text";
                 queryParagraph.style.fontWeight = "bold";
                 queryParagraph.style.marginBottom = "10px";
-                queryParagraph.textContent = lang == "hinglishMore" ? "Query: " +  queryText : "";
+                queryParagraph.textContent = lang == "hinglishMore" ? "Query: " + queryText : "";
                 targetElement.appendChild(queryParagraph);
 
                 const response = await fetch('https://law.cartelcouriers.co.in/lawDoc/chatStream', {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
-                        "apikey": "243601"
+                        "apikey": "243601",
+                        "Authorization": localStorage.getItem("token")
                     },
                     body: JSON.stringify({
                         message: queryText,
@@ -384,7 +386,8 @@
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
-                        "apikey": "243601"
+                        "apikey": "243601",
+                        "Authorization": localStorage.getItem("token")
                     },
                     body: JSON.stringify({
                         languageCode: "en-IN",
@@ -466,7 +469,7 @@
                 content.scrollIntoView({ behavior: 'smooth', block: 'center' }); // Scroll into view
             }
         }
-        
+
         function searchChapters() {
             const query = document.getElementById('searchInput').value.toLowerCase();
 
@@ -510,16 +513,26 @@
 </head>
 
 <body>
-    <h1>THE BHARATIYA NAGARIK SURAKSHA SANHITA, 2023</h1>
-     <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Enter search text..." oninput="searchChapters()">
-        <!-- <button onclick="searchChapters()">Search</button> -->
+    <div class="navbar">
+        <div>
+            <h1>LAW DATA.</h1>
+        </div>
+        <div>
+            <a href="./index.html" class="home">Home</a>
+        </div>
     </div>
-    <div id="accordion-container">
-        <!-- Dynamic Chapters and Sections Will Load Here -->
-    </div>
-    <div class="loader" id="loader">
-        <div></div>
+    <div class="container">
+        <h1>THE BHARATIYA NAGARIK SURAKSHA SANHITA, 2023</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter search text..." oninput="searchChapters()">
+            <!-- <button onclick="searchChapters()">Search</button> -->
+        </div>
+        <div id="accordion-container">
+            <!-- Dynamic Chapters and Sections Will Load Here -->
+        </div>
+        <div class="loader" id="loader">
+            <div></div>
+        </div>
     </div>
 </body>
 

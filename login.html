@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - LAW DATA</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 350px;
+            margin: 50px auto;
+        }
+
+        input {
+            width: 93%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        p {
+            margin-top: 10px;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>LAW DATA.</h1>
+        <span style="color: white;font-size: 12px;">(v 1.23)</span>
+    </div>
+
+    <div class="container">
+        <h2>Login with OTP</h2>
+
+        <!-- Mobile Number Input -->
+        <div id="mobileSection">
+            <input type="text" id="mobile" placeholder="Enter Mobile Number">
+            <button onclick="sendOTP()">Send OTP</button>
+        </div>
+
+        <!-- OTP Verification Input -->
+        <div id="otpSection" style="display: none;">
+            <input type="text" id="otp" placeholder="Enter OTP">
+            <button onclick="verifyOTP()">Verify OTP</button>
+        </div>
+
+        <p id="message"></p>
+    </div>
+
+    <script>
+        const BASE_URL = "https://law.cartelcouriers.co.in/lawDoc/"; // Change this to your API server URL
+
+        async function sendOTP() {
+            const mobile = document.getElementById("mobile").value;
+
+            if (mobile.length !== 10 || isNaN(mobile)) {
+                alert("Please enter a valid 10-digit mobile number.");
+                return;
+            }
+
+            try {
+                const response = await fetch(`${BASE_URL}/sendOtp`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ mobile })
+                });
+
+                const data = await response.json();
+
+                if (data.status === 1) {
+                    document.getElementById("mobileSection").style.display = "none";
+                    document.getElementById("otpSection").style.display = "block";
+                    document.getElementById("message").innerText = "OTP sent successfully!";
+                } else {
+                    document.getElementById("message").innerText = "Failed to send OTP.";
+                }
+            } catch (error) {
+                console.error("Error sending OTP:", error);
+                document.getElementById("message").innerText = "Something went wrong. Try again.";
+            }
+        }
+
+        async function verifyOTP() {
+            const mobile = document.getElementById("mobile").value;
+            const otp = document.getElementById("otp").value;
+
+            if (otp.length !== 4 || isNaN(otp)) {
+                alert("Please enter a valid 6-digit OTP.");
+                return;
+            }
+
+            try {
+                const response = await fetch(`${BASE_URL}/verifyOtp`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ mobile, otp })
+                });
+
+                const data = await response.json();
+
+                if (data.status === 1 && data?.data?.token) {
+                    localStorage.setItem("token", data?.data?.token); // Store token
+                    document.getElementById("message").innerText = "Login successful!";
+                    setTimeout(()=>{
+                        window.location.href = "index.html";
+                    },200)
+                } else {
+                    document.getElementById("message").innerText = "Invalid OTP. Try again.";
+                }
+            } catch (error) {
+                console.error("Error verifying OTP:", error);
+                document.getElementById("message").innerText = "Something went wrong. Try again.";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
