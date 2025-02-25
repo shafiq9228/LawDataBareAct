@@ -49,7 +49,7 @@
 <body>
     <div class="navbar">
         <h1>LAW DATA.</h1>
-        <span style="color: white;font-size: 12px;">(v 1.24)</span>
+        <span style="color: white;font-size: 12px;">(v 1.26)</span>
     </div>
 
     <div class="container">
@@ -71,25 +71,30 @@
     </div>
 
     <script>
-        const BASE_URL = "https://law.cartelcouriers.co.in/lawDoc/"; // Change this to your API server URL
-
+        // Redirect if token exists
+        if (localStorage.getItem("token")) {
+            window.location.href = "index.html";
+        }
+    
+        const BASE_URL = "https://law.cartelcouriers.co.in/lawDoc/"; // API server URL
+    
         async function sendOTP() {
             const mobile = document.getElementById("mobile").value;
-
+    
             if (mobile.length !== 10 || isNaN(mobile)) {
                 alert("Please enter a valid 10-digit mobile number.");
                 return;
             }
-
+    
             try {
                 const response = await fetch(`${BASE_URL}/sendOtp`, {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ mobile })
                 });
-
+    
                 const data = await response.json();
-
+    
                 if (data.status === 1) {
                     document.getElementById("mobileSection").style.display = "none";
                     document.getElementById("otpSection").style.display = "block";
@@ -102,31 +107,31 @@
                 document.getElementById("message").innerText = "Something went wrong. Try again.";
             }
         }
-
+    
         async function verifyOTP() {
             const mobile = document.getElementById("mobile").value;
             const otp = document.getElementById("otp").value;
-
-            if (otp.length !== 4 || isNaN(otp)) {
+    
+            if (otp.length !== 6 || isNaN(otp)) {
                 alert("Please enter a valid 6-digit OTP.");
                 return;
             }
-
+    
             try {
                 const response = await fetch(`${BASE_URL}/verifyOtp`, {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ mobile, otp })
                 });
-
+    
                 const data = await response.json();
-
+    
                 if (data.status === 1 && data?.data?.token) {
                     localStorage.setItem("token", data?.data?.token); // Store token
                     document.getElementById("message").innerText = "Login successful!";
-                    setTimeout(()=>{
+                    setTimeout(() => {
                         window.location.href = "index.html";
-                    },200)
+                    }, 200);
                 } else {
                     document.getElementById("message").innerText = "Invalid OTP. Try again.";
                 }
@@ -135,8 +140,8 @@
                 document.getElementById("message").innerText = "Something went wrong. Try again.";
             }
         }
-
     </script>
+    
 </body>
 
 </html>

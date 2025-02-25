@@ -16,3 +16,11 @@ function checkAuth() {
 
 // Run checkAuth() automatically when a protected page loads
 checkAuth();
+
+function handleLogout() {
+    const isConfirm = window.confirm("Are you sure, you want to logout?");
+    if (isConfirm) {
+        localStorage.setItem("token", "")
+        window.location.href = "login.html";
+    }
+}
