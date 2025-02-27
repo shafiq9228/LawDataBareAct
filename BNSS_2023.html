@@ -241,7 +241,7 @@
                 queryParagraph.className = "query-text";
                 queryParagraph.style.fontWeight = "bold";
                 queryParagraph.style.marginBottom = "10px";
-                queryParagraph.textContent = lang == "hinglishMore" ? "Query: " + queryText : "";
+                queryParagraph.innerHTML = lang == "hinglishMore" ? "Query: " + queryText : "";
                 targetElement.appendChild(queryParagraph);
 
                 const response = await fetch('https://law.cartelcouriers.co.in/lawDoc/chatStream', {
