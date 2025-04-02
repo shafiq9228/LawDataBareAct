@@ -68,7 +68,7 @@
 
                         const sectionHeader = document.createElement('div');
                         sectionHeader.classList.add('section-header');
-                        sectionHeader.innerHTML = highlightMatch(`<b>Section ${section.section_no}:</b> ${section.section_title}`, query);
+                        sectionHeader.innerHTML = highlightMatch(`<b>Article ${section.section_no}:</b> ${section.section_title}`, query);
                         sectionHeader.setAttribute('onclick', `toggleSection('section-${chapterIndex}-${sectionIndex}')`);
                         sectionDiv.appendChild(sectionHeader);
 
