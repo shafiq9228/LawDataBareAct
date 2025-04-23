@@ -102,9 +102,11 @@
                                     showClearButton();
                                 };
 
-                                // Append buttons directly to the paragraph
-                                paragraph.appendChild(translateSingleLineButton);
-                                paragraph.appendChild(translateHinglishButton);
+                                if (chapter !== "PREAMBLE") {
+                                    // Append buttons directly to the paragraph
+                                    paragraph.appendChild(translateSingleLineButton);
+                                    paragraph.appendChild(translateHinglishButton);
+                                }
                                 uList.appendChild(paragraph)
 
                                 descriptionContainer.appendChild(uList);
