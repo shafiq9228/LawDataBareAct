@@ -15,25 +15,25 @@
                     "title": "2. Definitions.",
                     "description": [
                         "(1) In this Adhiniyam, unless the context otherwise requires\u2014",
-                        "(a) 'Court' includes all Judges and Magistrates, and all persons, except arbitrators, legally authorised to take evidence;",
-                        "(b) 'conclusive proof' means when one fact is declared by this Adhiniyam to be conclusive proof of another, the Court shall, on proof of the one fact, regard the other as proved, and shall not allow evidence to be given for the purpose of disproving it;",
-                        "(c) 'document' means any matter expressed or described or otherwise recorded upon any substance by means of letters, figures, or marks or any other means, intended to be used, or which may be used, for the purpose of recording that matter and includes electronic and digital records.",
-                        "(d) “document” means any matter expressed or described or otherwise recorded upon any substance by means of letters, figures or marks or any other means or by more than one of those means, intended to be used, or which may be used, for the purpose of recording that matter and includes electronic and digital records.",
-                        "(i) A writing is a document.",
-                        "(ii) Words printed, lithographed or photographed are documents.",
-                        "(iii) A map or plan is a document.",
-                        "(iv) An inscription on a metal plate or stone is a document.",
-                        "(v) A caricature is a document.",
-                        "(vi) An electronic record on emails, server logs, documents on computers, laptop or smartphone, messages, websites, locational evidence and voice mail messages stored on digital devices are documents;",
-                        "(e) “evidence” means and includes— (i) all statements including statements given electronically which the Court permits or requires to be made before it by witnesses in relation to matters of fact under inquiry and such statements are called oral evidence; ",
-                        "(ii) all documents including electronic or digital records produced for the inspection of the Court and such documents are called documentary evidence;",
-                        "(f) “fact” means and includes—",
-                        "(i) any thing, state of things, or relation of things, capable of being perceived by the senses; (ii) any mental condition of which any person is conscious.",
-                        "(i) That there are certain objects arranged in a certain order in a certain place, is a fact",
-                        "(ii) That a person heard or saw something, is a fact",
-                        "(iii) That a person said certain words, is a fact.",
-                        "(iv) That a person holds a certain opinion, has a certain intention, acts in good faith, or fraudulently, or uses a particular word in a particular sense, or is or was at a specified time conscious of a particular sensation, is a fact;",
-                        "(g) “facts in issue” means and includes any fact from which, either by itself or in connection with other facts, the existence, non-existence, nature or extent of any right, liability or disability, asserted or denied in any suit or proceeding, necessarily follows. ",
+                        "(1)(a) 'Court' includes all Judges and Magistrates, and all persons, except arbitrators, legally authorised to take evidence;",
+                        "(1)(b) 'conclusive proof' means when one fact is declared by this Adhiniyam to be conclusive proof of another, the Court shall, on proof of the one fact, regard the other as proved, and shall not allow evidence to be given for the purpose of disproving it;",
+                        "(1)(c) 'document' means any matter expressed or described or otherwise recorded upon any substance by means of letters, figures, or marks or any other means, intended to be used, or which may be used, for the purpose of recording that matter and includes electronic and digital records.",
+                        "(1)(d) “document” means any matter expressed or described or otherwise recorded upon any substance by means of letters, figures or marks or any other means or by more than one of those means, intended to be used, or which may be used, for the purpose of recording that matter and includes electronic and digital records.",
+                        "(1)(d)(i) A writing is a document.",
+                        "(1)(d)(ii) Words printed, lithographed or photographed are documents.",
+                        "(1)(d)(iii) A map or plan is a document.",
+                        "(1)(d)(iv) An inscription on a metal plate or stone is a document.",
+                        "(1)(d)(v) A caricature is a document.",
+                        "(1)(d)(vi) An electronic record on emails, server logs, documents on computers, laptop or smartphone, messages, websites, locational evidence and voice mail messages stored on digital devices are documents;",
+                        "(1)(e) “evidence” means and includes— (i) all statements including statements given electronically which the Court permits or requires to be made before it by witnesses in relation to matters of fact under inquiry and such statements are called oral evidence; ",
+                        "(1)(e)(ii) all documents including electronic or digital records produced for the inspection of the Court and such documents are called documentary evidence;",
+                        "(1)(f) “fact” means and includes—",
+                        "(1)(f)(i) any thing, state of things, or relation of things, capable of being perceived by the senses; (ii) any mental condition of which any person is conscious.",
+                        "(1)(f)(i) That there are certain objects arranged in a certain order in a certain place, is a fact",
+                        "(1)(f)(ii) That a person heard or saw something, is a fact",
+                        "(1)(f)(iii) That a person said certain words, is a fact.",
+                        "(1)(f)(iv) That a person holds a certain opinion, has a certain intention, acts in good faith, or fraudulently, or uses a particular word in a particular sense, or is or was at a specified time conscious of a particular sensation, is a fact;",
+                        "(1)(g) “facts in issue” means and includes any fact from which, either by itself or in connection with other facts, the existence, non-existence, nature or extent of any right, liability or disability, asserted or denied in any suit or proceeding, necessarily follows. ",
                         "Explanation.—Whenever, under the provisions of the law for the time being in force relating to Civil Procedure, any Court records an issue of fact, the fact to be asserted or denied in the answer to such issue is a fact in issue.",
                         "Illustrations.",
                         "A is accused of the murder of B. At his trial, the following facts may be in issue:— (i) That A caused B's death. (ii) That A intended to cause B's death. (iii) That A had received grave and sudden provocation from B. (iv) That A, at the time of doing the act which caused B’s death, was, by reason of unsoundness of mind, incapable of knowing its nature; (h) “may presume”.—Whenever it is provided by this Adhiniyam that the Court may presume a fact, it may either regard such fact as proved, unless and until it is disproved or may call for proof of it; (i) “not proved”.—A fact is said to be not proved when it is neither proved nor disproved; (j) “proved”.—A fact is said to be proved when, after considering the matters before it, the Court either believes it to exist, or considers its existence so probable that a prudent man ought, under the circumstances of the particular case, to act upon the supposition that it exists; (k) “relevant”.—A fact is said to be relevant to another when it is connected with the other in any of the ways referred to in the provisions of this Adhiniyam relating to the relevancy of facts; (l) “shall presume”.—Whenever it is directed by this Adhiniyam that the Court shall presume a fact, it shall regard such fact as proved, unless and until it is disproved",
@@ -116,8 +116,8 @@
                         "Facts not otherwise relevant are relevant:",
                         "(1) if they are inconsistent with any fact in issue or relevant fact;",
                         "(2) if by themselves or in connection with other facts they make the existence or non-existence of any fact in issue or relevant fact highly probable or improbable.",
-                        "(a) The question is, whether A committed a crime at Chennai on a certain day. The fact that, on that day, A was at Ladakh is relevant. The fact that, near the time when the crime was committed, A was at a distance from the place where it was committed, which would render it highly improbable, though not impossible, that he committed it, is relevant.",
-                        "(b) The question is, whether A committed a crime. The circumstances are such that the crime must have been committed either by A, B, C or D. Every fact which shows that the crime could have been committed by no one else, and that it was not committed by either B, C or D, is relevant."
+                        "(2)(a) The question is, whether A committed a crime at Chennai on a certain day. The fact that, on that day, A was at Ladakh is relevant. The fact that, near the time when the crime was committed, A was at a distance from the place where it was committed, which would render it highly improbable, though not impossible, that he committed it, is relevant.",
+                        "(2)(b) The question is, whether A committed a crime. The circumstances are such that the crime must have been committed either by A, B, C or D. Every fact which shows that the crime could have been committed by no one else, and that it was not committed by either B, C or D, is relevant."
                     ]
                 },
                 {
@@ -217,10 +217,11 @@
                         "(1) an admission may be proved by or on behalf of the person making it, when it is of such a nature that, if the person making it were dead, it would be relevant as between third persons under section 26;",
                         "(2) an admission may be proved by or on behalf of the person making it, when it consists of a statement of the existence of any state of mind or body, relevant or in issue, made at or about the time when such state of mind or body existed, and is accompanied by conduct rendering its falsehood improbable;",
                         "(3) an admission may be proved by or on behalf of the person making it, if it is relevant otherwise than as an admission. Illustrations.",
-                        "(a) The question between A and B is, whether a certain deed is or is not forged. A affirms that it is genuine, B that it is forged. A may prove a statement by B that the deed is genuine, and B may prove a statement by A that deed is forged; but A cannot prove a statement by himself that the deed is genuine, nor can B prove a statement by himself that the deed is forged.",
-                        "(b) A, the captain of a ship, is tried for casting her away. Evidence is given to show that the ship was taken out of her proper course. A produces a book kept by him in the ordinary course of his business showing observations alleged to have been taken by him from day to day, and indicating that the ship was not taken out of her proper course. A may prove these statements, because they would be admissible between third parties, if he were dead, under clause (b) of section 26. 17",
-                        "(c) A is accused of a crime committed by him at Kolkata. He produces a letter written by himself and dated at Chennai on that day, and bearing the Chennai post-mark of that day. The statement in the date of the letter is admissible, because, if A were dead, it would be admissible under clause (b) of section 26. (d) A is accused of receiving stolen goods knowing them to be stolen. He offers to prove that he refused to sell them below their value. A may prove these statements, though they are admissions, because they are explanatory of conduct influenced by facts in issue.",
-                        "(e) A is accused of fraudulently having in his possession counterfeit currency which he knew to be counterfeit. He offers to prove that he asked a skilful person to examine the currency as he doubted whether it was counterfeit or not, and that person did examine it and told him it was genuine. A may prove these facts."
+                        "(3)(a) The question between A and B is, whether a certain deed is or is not forged. A affirms that it is genuine, B that it is forged. A may prove a statement by B that the deed is genuine, and B may prove a statement by A that deed is forged; but A cannot prove a statement by himself that the deed is genuine, nor can B prove a statement by himself that the deed is forged.",
+                        "(3)(b) A, the captain of a ship, is tried for casting her away. Evidence is given to show that the ship was taken out of her proper course. A produces a book kept by him in the ordinary course of his business showing observations alleged to have been taken by him from day to day, and indicating that the ship was not taken out of her proper course. A may prove these statements, because they would be admissible between third parties, if he were dead, under clause (b) of section 26. 17",
+                        "(3)(c) A is accused of a crime committed by him at Kolkata. He produces a letter written by himself and dated at Chennai on that day, and bearing the Chennai post-mark of that day. The statement in the date of the letter is admissible, because, if A were dead, it would be admissible under clause (b) of section 26. ",
+                        "(3)(d) A is accused of receiving stolen goods knowing them to be stolen. He offers to prove that he refused to sell them below their value. A may prove these statements, though they are admissions, because they are explanatory of conduct influenced by facts in issue.",
+                        "(3)(e) A is accused of fraudulently having in his possession counterfeit currency which he knew to be counterfeit. He offers to prove that he asked a skilful person to examine the currency as he doubted whether it was counterfeit or not, and that person did examine it and told him it was genuine. A may prove these facts."
                     ]
                 },
                 {
@@ -502,19 +503,19 @@
                 {
                     "title": "52. Facts of which Court shall take judicial notice.",
                     "description": [
-                        "The Court shall take judicial notice of the following facts:",
-                        "(a) ) all laws in force in the territory of India including laws having extra-territorial operation;",
-                        "(b) international treaty, agreement or convention with country or countries by India, or decisions made by India at international associations or other bodies;",
-                        "(c) the course of proceeding of the Constituent Assembly of India, of Parliament of India and of the State Legislatures;",
-                        "(d) the seals of all Courts and Tribunals;",
-                        "(e) the seals of Courts of Admiralty and Maritime Jurisdiction, Notaries Public, and all seals which any person is authorised to use by the Constitution, or by an Act of Parliament or State Legislatures, or Regulations having the force of law in India; ",
-                        "(f) the accession to office, names, titles, functions, and signatures of the persons filling for the time being any public office in any State, if the fact of their appointment to such office is notified in any Official Gazette;",
-                        "(g) the existence, title and national flag of every country or sovereign recognised by the Government of India;",
-                        "(h) the divisions of time, the geographical divisions of the world, and public festivals, fasts and holidays notified in the Official Gazette;",
-                        "(i) the territory of India;",
-                        "(j) the commencement, continuance and termination of hostilities between the Government of India and any other country or body of persons;",
-                        "(k) the names of the members and officers of the Court and of their deputies and subordinate officers and assistants, and also of all officers acting in execution of its process, and of advocates and other persons authorised by law to appear or act before it;",
-                        "(l) the rule of the road on land or at sea.",
+                        "(1)The Court shall take judicial notice of the following facts:",
+                        "(1)(a) all laws in force in the territory of India including laws having extra-territorial operation;",
+                        "(1)(b) international treaty, agreement or convention with country or countries by India, or decisions made by India at international associations or other bodies;",
+                        "(1)(c) the course of proceeding of the Constituent Assembly of India, of Parliament of India and of the State Legislatures;",
+                        "(1)(d) the seals of all Courts and Tribunals;",
+                        "(1)(e) the seals of Courts of Admiralty and Maritime Jurisdiction, Notaries Public, and all seals which any person is authorised to use by the Constitution, or by an Act of Parliament or State Legislatures, or Regulations having the force of law in India; ",
+                        "(1)(f) the accession to office, names, titles, functions, and signatures of the persons filling for the time being any public office in any State, if the fact of their appointment to such office is notified in any Official Gazette;",
+                        "(1)(g) the existence, title and national flag of every country or sovereign recognised by the Government of India;",
+                        "(1)(h) the divisions of time, the geographical divisions of the world, and public festivals, fasts and holidays notified in the Official Gazette;",
+                        "(1)(i) the territory of India;",
+                        "(1)(j) the commencement, continuance and termination of hostilities between the Government of India and any other country or body of persons;",
+                        "(1)(k) the names of the members and officers of the Court and of their deputies and subordinate officers and assistants, and also of all officers acting in execution of its process, and of advocates and other persons authorised by law to appear or act before it;",
+                        "(1)(l) the rule of the road on land or at sea.",
                         "(2) In the cases referred to in sub-section (1) and also on all matters of public history, literature, science or art, the Court may resort for its aid to appropriate books or documents of reference and if the Court is called upon by any person to take judicial notice of any fact, it may refuse to do so unless and until such person produces any such book or document as it may consider necessary to enable it to do so."
                     ]
                 },
@@ -603,9 +604,9 @@
                     "description": [
                         "Secondary evidence may be given of the existence, condition, or contents of a document in the following cases, namely:",
                         "(a) when the original is shown or appears to be in the possession or power:",
-                        "(i) of the person against whom the document is sought to be proved;",
-                        "(ii) of any person out of reach of, or not subject to, the process of the Court;",
-                        "(iii) of any person legally bound to produce it, and when, after the notice mentioned in section 64 such person does not produce it;",
+                        "(a)(i) of the person against whom the document is sought to be proved;",
+                        "(a)(ii) of any person out of reach of, or not subject to, the process of the Court;",
+                        "(a)(iii) of any person legally bound to produce it, and when, after the notice mentioned in section 64 such person does not produce it;",
                         "(b) when the existence, condition or contents of the original have been proved to be admitted in writing by the person against whom it is proved or by his representative in interest;",
                         "(c) when the original has been destroyed or lost, or when the party offering evidence of its contents cannot, for any other reason not arising from his own default or neglect, produce it in reasonable time;",
                         "(d) when the original is of such a nature as not to be easily movable;",
@@ -636,24 +637,24 @@
                     "description": [
                         "(1) Notwithstanding anything contained in this Adhiniyam, any information contained in an electronic record which is printed on paper, stored, recorded or copied in optical or magnetic media or semiconductor memory which is produced by a computer or any communication device or otherwise stored, recorded or copied in any electronic form (hereinafter referred to as the computer output) shall be deemed to be also a document, if the conditions mentioned in this section are satisfied in relation to the information and computer in question and shall be admissible in any proceedings, without further proof or production of the original, as evidence or any contents of the original or of any fact stated therein of which direct evidence would be admissible.",
                         "(2) The conditions referred to in sub-section (1) in respect of a computer output shall be the following, namely:",
-                        "(a) the computer output containing the information was produced by the computer or communication device during the period over which the computer or communication device was used regularly to create, store or process information for the purposes of any activity regularly carried on over that period by the person having lawful control over the use of the computer or communication device;",
-                        "(b) during the said period, information of the kind contained in the electronic record or of the kind from which the information so contained is derived was regularly fed into the computer or communication device in the ordinary course of the said activities;",
-                        "(c) throughout the material part of the said period, the computer or communication device was operating properly or, if not, then in respect of any period in which it was not operating properly or was out of operation during that part of the period, was not such as to affect the electronic record or the accuracy of its contents;",
-                        "(d) the information contained in the electronic record reproduces or is derived from such information fed into the computer or communication device in the ordinary course of the said activities.",
+                        "(2)(a) the computer output containing the information was produced by the computer or communication device during the period over which the computer or communication device was used regularly to create, store or process information for the purposes of any activity regularly carried on over that period by the person having lawful control over the use of the computer or communication device;",
+                        "(2)(b) during the said period, information of the kind contained in the electronic record or of the kind from which the information so contained is derived was regularly fed into the computer or communication device in the ordinary course of the said activities;",
+                        "(2)(c) throughout the material part of the said period, the computer or communication device was operating properly or, if not, then in respect of any period in which it was not operating properly or was out of operation during that part of the period, was not such as to affect the electronic record or the accuracy of its contents;",
+                        "(2)(d) the information contained in the electronic record reproduces or is derived from such information fed into the computer or communication device in the ordinary course of the said activities.",
                         "(3) Where over any period, the function of creating, storing or processing information for the purposes of any activity regularly carried on over that period as mentioned in clause (a) of sub-section (2) was regularly performed by means of one or more computers or communication devices, whether:",
-                        "(a) in standalone mode;",
-                        "(b) on a computer system;",
-                        "(c) on a computer network;",
-                        "(d) on a computer resource enabling information creation or providing information processing and storage; or",
-                        "(e) through an intermediary,",
+                        "(3)(a) in standalone mode;",
+                        "(3)(b) on a computer system;",
+                        "(3)(c) on a computer network;",
+                        "(3)(d) on a computer resource enabling information creation or providing information processing and storage; or",
+                        "(3)(e) through an intermediary,",
                         "all the computers or communication devices used for that purpose during that period shall be treated for the purposes of this section as constituting a single computer or communication device; and references in this section to a computer or communication device shall be construed accordingly.",
                         "(4) In any proceeding where it is desired to give a statement in evidence by virtue of this section, a certificate doing any of the following things shall be submitted along with the electronic record at each instance where it is being submitted for admission, namely:",
-                        "(a) identifying the electronic record containing the statement and describing the manner in which it was produced;",
-                        "(b) giving such particulars of any device involved in the production of that electronic record as may be appropriate for the purpose of showing that the electronic record was produced by a computer or a communication device referred to in clauses (a) to (e) of sub-section (3);",
-                        "(c) dealing with any of the matters to which the conditions mentioned in sub-section (2) relate, and purporting to be signed by a person in charge of the computer or communication device or the management of the relevant activities (whichever is appropriate), and an expert shall be evidence of any matter stated in the certificate.",
+                        "(4)(a) identifying the electronic record containing the statement and describing the manner in which it was produced;",
+                        "(4)(b) giving such particulars of any device involved in the production of that electronic record as may be appropriate for the purpose of showing that the electronic record was produced by a computer or a communication device referred to in clauses (a) to (e) of sub-section (3);",
+                        "(4)(c) dealing with any of the matters to which the conditions mentioned in sub-section (2) relate, and purporting to be signed by a person in charge of the computer or communication device or the management of the relevant activities (whichever is appropriate), and an expert shall be evidence of any matter stated in the certificate.",
                         "(5) For the purposes of this section:",
-                        "(a) information shall be taken to be supplied to a computer or communication device if it is supplied thereto in any appropriate form and whether it is so supplied directly or (with or without human intervention) by means of any appropriate equipment;",
-                        "(b) a computer output shall be taken to have been produced by a computer or communication device whether it was produced by it directly or (with or without human intervention) by means of any appropriate equipment or by other electronic means as referred to in clauses (a) to (e) of sub-section (3)."
+                        "(5)(a) information shall be taken to be supplied to a computer or communication device if it is supplied thereto in any appropriate form and whether it is so supplied directly or (with or without human intervention) by means of any appropriate equipment;",
+                        "(5)(b) a computer output shall be taken to have been produced by a computer or communication device whether it was produced by it directly or (with or without human intervention) by means of any appropriate equipment or by other electronic means as referred to in clauses (a) to (e) of sub-section (3)."
                     ]
                 },
                 {
@@ -733,11 +734,11 @@
                     "title": "74. Public and private documents.",
                     "description": [
                         "(1) The following documents are public documents:",
-                        "(a) documents forming the acts, or records of the acts:",
-                        "(i) of the sovereign authority;",
-                        "(ii) of official bodies and tribunals; and",
-                        "(iii) of public officers, legislative, judicial and executive of India or of a foreign country;",
-                        "(b) public records kept in any State or Union territory of private documents.",
+                        "(1)(a) documents forming the acts, or records of the acts:",
+                        "(1)(a)(i) of the sovereign authority;",
+                        "(1)(a)(ii) of official bodies and tribunals; and",
+                        "(1)(a)(iii) of public officers, legislative, judicial and executive of India or of a foreign country;",
+                        "(1)(b) public records kept in any State or Union territory of private documents.",
                         "(2) All other documents except the documents referred to in sub-section (1) are private."
                     ]
                 },
@@ -759,8 +760,8 @@
                     "description": [
                         "The following public documents may be proved as follows:",
                         "(a) Acts, orders or notifications of the Central Government in any of its Ministries and Departments or of any State Government or any Department of any State Government or Union territory Administration:",
-                        "(i) by the records of the Departments, certified by the head of those Departments respectively; or",
-                        "(ii) by any document purporting to be printed by order of any such Government;",
+                        "(a)(i) by the records of the Departments, certified by the head of those Departments respectively; or",
+                        "(a)(ii) by any document purporting to be printed by order of any such Government;",
                         "(b) the proceedings of Parliament or a State Legislature, by the journals of those bodies respectively, or by published Acts or abstracts, or by copies purporting to be printed by order of the Government concerned;",
                         "(c) proclamations, orders or Regulations issued by the President of India or the Governor of a State or the Administrator or Lieutenant Governor of a Union territory, by copies or extracts contained in the Official Gazette;",
                         "(d) the Acts of the Executive or the proceedings of the Legislature of a foreign country, by journals published by their authority, or commonly received in that country as such, or by a copy certified under the seal of the country or sovereign, or by a recognition thereof in any Central Act;",
@@ -829,8 +830,8 @@
                     "description": [
                         "(1) In any proceeding involving a secure electronic record, the Court shall presume unless contrary is proved, that the secure electronic record has not been altered since the specific point of time to which the secure status relates.",
                         "(2) In any proceeding, involving secure electronic signature, the Court shall presume unless the contrary is proved that:",
-                        "(a) the secure electronic signature is affixed by subscriber with the intention of signing or approving the electronic record;",
-                        "(b) except in the case of a secure electronic record or a secure electronic signature, nothing in this section shall create any presumption relating to authenticity and integrity of the electronic record or any electronic signature."
+                        "(2)(a) the secure electronic signature is affixed by subscriber with the intention of signing or approving the electronic record;",
+                        "(2)(b) except in the case of a secure electronic record or a secure electronic signature, nothing in this section shall create any presumption relating to authenticity and integrity of the electronic record or any electronic signature."
                     ]
                 },
                 {
@@ -1087,12 +1088,12 @@
                     "title": "115. Presumption as to certain offences.",
                     "description": [
                         "(1) Where a person is accused of having committed any offence specified in sub-section (2), in:",
-                        "(a) any area declared to be a disturbed area under any enactment for the time being in force, making provision for the suppression of disorder and restoration and maintenance of public order; or",
-                        "(b) any area in which there has been, over a period of more than one month, extensive disturbance of the public peace,",
+                        "(1)(a) any area declared to be a disturbed area under any enactment for the time being in force, making provision for the suppression of disorder and restoration and maintenance of public order; or",
+                        "(1)(b) any area in which there has been, over a period of more than one month, extensive disturbance of the public peace,",
                         "and it is shown that such person had been at a place in such area at a time when firearms or explosives were used at or from that place to attack or resist the members of any armed forces or the forces charged with the maintenance of public order acting in the discharge of their duties, it shall be presumed, unless the contrary is shown, that such person had committed such offence.",
                         "(2) The offences referred to in sub-section (1) are the following, namely:",
-                        "(a) an offence under section 147, section 148, section 149 or section 150 of the Bharatiya Nyaya Sanhita, 2023;",
-                        "(b) criminal conspiracy or attempt to commit, or abetment of, an offence under section 149 or section 150 of the Bharatiya Nyaya Sanhita, 2023."
+                        "(2)(a) an offence under section 147, section 148, section 149 or section 150 of the Bharatiya Nyaya Sanhita, 2023;",
+                        "(2)(b) criminal conspiracy or attempt to commit, or abetment of, an offence under section 149 or section 150 of the Bharatiya Nyaya Sanhita, 2023."
                     ]
                 },
                 {
@@ -1130,16 +1131,16 @@
                         "(h) If a man refuses to answer a question which he is not compelled to answer by law, the answer, if given, would be unfavourable to him.",
                         "(i) When a document creating an obligation is in the hands of the obligor, the obligation has been discharged.",
                         "(2) The Court shall also have regard to such facts as the following, in considering whether such maxims do or do not apply to the particular case before it:",
-                        "(i) As to Illustration (a): A shop-keeper has in his bill a marked rupee soon after it was stolen, and cannot account for its possession specifically, but is continually receiving rupees in the course of his business.",
-                        "(ii) As to Illustration (b): A, a person of the highest character, is tried for causing a man's death by an act of negligence in arranging certain machinery. B, a person of equally good character, who also took part in the arrangement, describes precisely what was done, and admits and explains the common carelessness of A and himself.",
-                        "(iii) As to Illustration (b): A crime is committed by several persons. A, B, and C, three of the criminals, are captured on the spot and kept apart from each other. Each gives an account of the crime implicating D, and the accounts corroborate each other in such a manner as to render previous concert highly improbable.",
-                        "(iv) As to Illustration (c): A, the drawer of a bill of exchange, was a man of business. B, the acceptor, was a young and ignorant person, completely under A's influence.",
-                        "(v) As to Illustration (d): It is proved that a river ran in a certain course five years ago, but it is known that there have been floods since that time which might change its course.",
-                        "(vi) As to Illustration (e): A judicial act, the regularity of which is in question, was performed under exceptional circumstances.",
-                        "(vii) As to Illustration (f): The question is, whether a letter was received. It is shown to have been posted, but the usual course of the post was interrupted by disturbances.",
-                        "(viii) As to Illustration (g): A man refuses to produce a document which would bear on a contract of small importance on which he is sued, but which might also injure the feelings and reputation of his family.",
-                        "(ix) As to Illustration (h): A man refuses to answer a question which he is not compelled by law to answer, but the answer to it might cause loss to him in matters unconnected with the matter in relation to which it is asked.",
-                        "(x) As to Illustration (i): A bond is in possession of the obligor, but the circumstances of the case are such that he may have stolen it."
+                        "(2)(i) As to Illustration (a): A shop-keeper has in his bill a marked rupee soon after it was stolen, and cannot account for its possession specifically, but is continually receiving rupees in the course of his business.",
+                        "(2)(ii) As to Illustration (b): A, a person of the highest character, is tried for causing a man's death by an act of negligence in arranging certain machinery. B, a person of equally good character, who also took part in the arrangement, describes precisely what was done, and admits and explains the common carelessness of A and himself.",
+                        "(2)(iii) As to Illustration (b): A crime is committed by several persons. A, B, and C, three of the criminals, are captured on the spot and kept apart from each other. Each gives an account of the crime implicating D, and the accounts corroborate each other in such a manner as to render previous concert highly improbable.",
+                        "(2)(iv) As to Illustration (c): A, the drawer of a bill of exchange, was a man of business. B, the acceptor, was a young and ignorant person, completely under A's influence.",
+                        "(2)(v) As to Illustration (d): It is proved that a river ran in a certain course five years ago, but it is known that there have been floods since that time which might change its course.",
+                        "(2)(vi) As to Illustration (e): A judicial act, the regularity of which is in question, was performed under exceptional circumstances.",
+                        "(2)(vii) As to Illustration (f): The question is, whether a letter was received. It is shown to have been posted, but the usual course of the post was interrupted by disturbances.",
+                        "(2)(viii) As to Illustration (g): A man refuses to produce a document which would bear on a contract of small importance on which he is sued, but which might also injure the feelings and reputation of his family.",
+                        "(2)(ix) As to Illustration (h): A man refuses to answer a question which he is not compelled by law to answer, but the answer to it might cause loss to him in matters unconnected with the matter in relation to which it is asked.",
+                        "(2)(x) As to Illustration (i): A bond is in possession of the obligor, but the circumstances of the case are such that he may have stolen it."
                     ]
                 },
                 {
@@ -1393,10 +1394,10 @@
                     "description": [
                         "(1) If any such question relates to a matter not relevant to the suit or proceeding, except in so far as it affects the credit of the witness by injuring his character, the Court shall decide whether or not the witness shall be compelled to answer it, and may, if it thinks fit, warn the witness that he is not obliged to answer it.",
                         "(2) In exercising its discretion, the Court shall have regard to the following considerations:",
-                        "(a) such questions are proper if they are of such a nature that the truth of the imputation conveyed by them would seriously affect the opinion of the Court as to the credibility of the witness on the matter to which he testifies;",
-                        "(b) such questions are improper if the imputation which they convey relates to matters so remote in time, or of such a character, that the truth of the imputation would not affect, or would affect in a slight degree, the opinion of the Court as to the credibility of the witness on the matter to which he testifies;",
-                        "(c) such questions are improper if there is a great disproportion between the importance of the imputation made against the witness's character and the importance of his evidence;",
-                        "(d) the Court may, if it sees fit, draw, from the witness’s refusal to answer, the inference that the answer if given would be unfavourable."
+                        "(2)(a) such questions are proper if they are of such a nature that the truth of the imputation conveyed by them would seriously affect the opinion of the Court as to the credibility of the witness on the matter to which he testifies;",
+                        "(2)(b) such questions are improper if the imputation which they convey relates to matters so remote in time, or of such a character, that the truth of the imputation would not affect, or would affect in a slight degree, the opinion of the Court as to the credibility of the witness on the matter to which he testifies;",
+                        "(2)(c) such questions are improper if there is a great disproportion between the importance of the imputation made against the witness's character and the importance of his evidence;",
+                        "(2)(d) the Court may, if it sees fit, draw, from the witness’s refusal to answer, the inference that the answer if given would be unfavourable."
                     ]
                 },
                 {
