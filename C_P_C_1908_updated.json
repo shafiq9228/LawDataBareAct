@@ -4816,10 +4816,6 @@
                         "Where an inquiry is directed under clause (b) or clause (c), a final decree in respect of the rent or mesne profits shall be passed in accordance with the result of such inquiry."
                     ]
                 },
-
-
-
-                
                 {
                     "title": "12A. Decree for specific performance of contract for the sale or lease of immovable property.",
                     "description": [
@@ -5001,21 +4997,21 @@
                     "description": [
                         "(1) Where a decree is for the payment of money the Court may, on the oral application of the decree-holder at the time of the passing of the decree, order immediate execution thereof by the arrest of the judgment-debtor, prior to the preparation of a warrant if he is within the precincts of the Court.",
                         "(2) Written application.—Save as otherwise provided by sub-rule (1), every application for the execution of a decree shall be in writing, signed and verified by the applicant or by some other person proved to the satisfaction of the Court to be acquainted with the facts of the case, and shall contain in a tabular form the following particulars, namely:—",
-                        "(a) the number of the suit;",
-                        "(b) the names of the parties;",
-                        "(c) the date of the decree;",
-                        "(d) whether any appeal has been preferred from the decree;",
-                        "(e) whether any, and (if any) what, payment or other adjustment of the matter in controversy has been made between the parties subsequently to the decree;",
-                        "(f) whether any, and (if any) what, previous applications have been made for the execution of the decree, the dates of such applications and their results;",
-                        "(g) the amount with interest (if any) due upon the decree, or other relief granted thereby, together with particulars of any cross-decree, whether passed before or after the date of the decree sought to be executed;",
-                        "(h) the amount of the costs (if any) awarded;",
-                        "(i) the name of the person against whom execution of the decree is sought; and",
-                        "(j) the mode in which the assistance of the Court is required whether,—",
-                        "(i) by the delivery of any property specifically decreed;",
-                        "(ii) by the attachment, or by the attachment and sale, or by the sale without attachment, of any property;",
-                        "(iii) by the arrest and detention in prison of any person;",
-                        "(iv) by the appointment of a receiver;",
-                        "(v) otherwise, as the nature of the relief granted may require."
+                        "(2)(a) the number of the suit;",
+                        "(2)(b) the names of the parties;",
+                        "(2)(c) the date of the decree;",
+                        "(2)(d) whether any appeal has been preferred from the decree;",
+                        "(2)(e) whether any, and (if any) what, payment or other adjustment of the matter in controversy has been made between the parties subsequently to the decree;",
+                        "(2)(f) whether any, and (if any) what, previous applications have been made for the execution of the decree, the dates of such applications and their results;",
+                        "(2)(g) the amount with interest (if any) due upon the decree, or other relief granted thereby, together with particulars of any cross-decree, whether passed before or after the date of the decree sought to be executed;",
+                        "(2)(h) the amount of the costs (if any) awarded;",
+                        "(2)(h)(i) the name of the person against whom execution of the decree is sought; and",
+                        "(2)(h)(j) the mode in which the assistance of the Court is required whether,—",
+                        "(2)(h)(i) by the delivery of any property specifically decreed;",
+                        "(2)(h)(ii) by the attachment, or by the attachment and sale, or by the sale without attachment, of any property;",
+                        "(2)(h)(iii) by the arrest and detention in prison of any person;",
+                        "(2)(h)(iv) by the appointment of a receiver;",
+                        "(2)(h)(v) otherwise, as the nature of the relief granted may require."
                     ]
                 },
                 {
@@ -5076,12 +5072,12 @@
                     "title": "18. Execution in case of cross-decrees.",
                     "description": [
                         "(1) Where applications are made to a Court for the execution of cross-decrees in separate suits for the payment of two sums of money passed between the same parties and capable of execution at the same time by such Court, then—",
-                        "(a) if the two sums are equal, satisfaction shall be entered upon both decrees; and",
-                        "(b) if the two sums are unequal execution may be taken out only by the holder of the decree for the larger sum and for so much only as remains after deducting the smaller sum, and satisfaction for the smaller sum shall be entered on the decree for the larger sum as well as satisfaction on the decree for the smaller sum.",
+                        "(1)(a) if the two sums are equal, satisfaction shall be entered upon both decrees; and",
+                        "(1)(b) if the two sums are unequal execution may be taken out only by the holder of the decree for the larger sum and for so much only as remains after deducting the smaller sum, and satisfaction for the smaller sum shall be entered on the decree for the larger sum as well as satisfaction on the decree for the smaller sum.",
                         "(2) This rule shall be deemed to apply where either party is an assignee of one of the decrees and as well in respect of judgment-debts due by the original assignor as in respect of judgment-debts due by the assignee himself.",
                         "(3) This rule shall not be deemed to apply unless—",
-                        "(a) the decree-holder in one of the suits in which the decrees have been made is the judgment-debtor in the other and each party files the same character in both suits; and",
-                        "(b) the sums due under the decrees are definite.",
+                        "(3)(a) the decree-holder in one of the suits in which the decrees have been made is the judgment-debtor in the other and each party files the same character in both suits; and",
+                        "(3)(b) the sums due under the decrees are definite.",
                         "(4) The holder of a decree passed against several persons jointly and severally may treat it as a cross-decree in relation to a decree passed against him singly in favour of one or more of such persons.",
                         "Illustrations",
                         "(a) A holds a decree against B for Rs. 1,000. B holds a decree against A for payment of Rs. 1,000 in case A fails to deliver certain goods at a future day. B cannot treat his decree as a cross-decree under this rule.",
@@ -5114,9 +5110,9 @@
                     "title": "22. Notice to show cause against execution in certain cases.",
                     "description": [
                         "(1) Where an application for execution is made—",
-                        "(a) more than two years after the date of the decree, or",
-                        "(b) against the legal representative of a party to the decree or where an application is made for execution of a decree filed under the provisions of section 44A, or",
-                        "(c) against the assignee or receiver in insolvency, where the party to the decree has been adjudged to be an insolvent,",
+                        "(1)(a) more than two years after the date of the decree, or",
+                        "(1)(b) against the legal representative of a party to the decree or where an application is made for execution of a decree filed under the provisions of section 44A, or",
+                        "(1)(c) against the assignee or receiver in insolvency, where the party to the decree has been adjudged to be an insolvent,",
                         "the Court executing the decree shall issue a notice to the person against whom execution is applied for requiring him to show cause, on a date to be fixed, why the decree should not be executed against him:",
                         "Provided that no such notice shall be necessary in consequence of more than two years having elapsed between the date of the decree and the application for execution if the application is made within two years from the date of the last order against the party against whom execution is applied for, made on any previous application for execution, or in consequence of the application being made against the legal representative of the judgment-debtor if upon a previous application for execution against the same person the Court has ordered execution to issue against him.",
                         "(2) Nothing in the foregoing sub-rule shall be deemed to preclude the Court from issuing any process in execution of a decree without issuing the notice thereby prescribed, if, for reasons to be recorded, it considers that the issue of such notice would cause unreasonable delay or would defeat the ends of justice."
@@ -5221,8 +5217,8 @@
                         "‘C. D., Judge of the Court of, (or as the case may be), for A. B., in a suit by E. F against A. B.’",
                         "and shall have the same effect as the execution of the document or the endorsement of the negotiable instrument by the party ordered to execute or endorse the same.",
                         "(6) (a) Where the registration of the document is required under any law for the time being in force, the Court, or such officer of the Court as may be authorised in this behalf by the Court, shall cause the document to be registered in accordance with such law.",
-                        "(b) Where the registration of the document is not so required, but the decree-holder desires it to be registered, the Court may make such order as it thinks fit.",
-                        "(c) Where the Court makes any order for the registration of any document, it may make such order as it thinks fit as to the expenses of registration."
+                        "(6)(b) Where the registration of the document is not so required, but the decree-holder desires it to be registered, the Court may make such order as it thinks fit.",
+                        "(6)(c) Where the Court makes any order for the registration of any document, it may make such order as it thinks fit as to the expenses of registration."
                     ]
                 },
                 {
@@ -5279,9 +5275,9 @@
                     "title": "41. Examination of judgment-debtor as to his property.",
                     "description": [
                         "(1) Where a decree is for the payment of money the decree-holder may apply to the Court for an order that—",
-                        "(a) the judgment-debtor, or",
-                        "(b) where the judgment-debtor is a corporation, any officer thereof, or",
-                        "(c) any other person,",
+                        "(1)(a) the judgment-debtor, or",
+                        "(1)(b) where the judgment-debtor is a corporation, any officer thereof, or",
+                        "(1)(c) any other person,",
                         "be orally examined as to whether any or what debts are owing to the judgment-debtor and whether the judgment-debtor has any and what other property or means of satisfying the decree; and the Court may make an order for the attendance and examination of such judgment-debtor, or officer or other person, and for the production of any books or documents.",
                         "(2) Where a decree for the payment of money has remained unsatisfied for a period of thirty days, the Court may, on the application of the decree-holder and without prejudice to its power under sub-rule (1), by order require the judgment-debtor or where the judgment-debtor is a corporation, any officer thereof, to make an affidavit stating the particulars of the assets of the judgment-debtor.",
                         "(3) In case of disobedience of any order made under sub-rule (2), the Court making the order, or any Court to which the proceeding is transferred, may direct that the person disobeying the order be detained in the civil prison for a term not exceeding three months unless before the expiry of such term the Court directs his release."
@@ -5305,11 +5301,11 @@
                     "description": [
                         "(1) Where the property attached consists of live-stock, agricultural implements or other articles which cannot conveniently be removed and the attaching officer does not act under the proviso to rule 43, he may, at the instance of the judgment-debtor or of the decree-holder or of any other person claiming to be interested in such property, leave it in the village or place where it has been attached, in the custody of any respectable person (hereinafter referred to as the 'custodian').",
                         "(2) If the custodian fails, after due notice, to produce such property at the place named by the Court before the officer deputed for the purpose or to restore it to the person in whose favour restoration is ordered by the Court, or if the property, though so produced or restored, is not in the same condition as it was when it was entrusted to him,—",
-                        "(a) the custodian shall be liable to pay compensation to the decree-holder, judgment-debtor or any other person who is found to be entitled to the restoration thereof, for any loss or damage caused by his default; and",
-                        "(b) such liability may be enforced—",
-                        "(i) at the instance of the decree-holder, as if the custodian were a surety under section 145;",
-                        "(ii) at the instance of the judgment-debtor or such other person, on an application in execution; and",
-                        "(c) any order determining such liability shall be appealable as a decree."
+                        "(2)(a) the custodian shall be liable to pay compensation to the decree-holder, judgment-debtor or any other person who is found to be entitled to the restoration thereof, for any loss or damage caused by his default; and",
+                        "(2)(b) such liability may be enforced—",
+                        "(2)(b)(i) at the instance of the decree-holder, as if the custodian were a surety under section 145;",
+                        "(2)(b)(ii) at the instance of the judgment-debtor or such other person, on an application in execution; and",
+                        "(2)(c) any order determining such liability shall be appealable as a decree."
                     ]
                 },
                 {
@@ -5335,13 +5331,13 @@
                     "title": "46. Attachment of debt, share and other property not in possession of judgment-debtor.",
                     "description": [
                         "(1) In the case of—",
-                        "(a) a debt not secured by a negotiable instrument,",
-                        "(b) a share in the capital of a corporation,",
-                        "(c) other movable property not in the possession of the judgment-debtor, except property deposited in, or in the custody of, any Court,",
+                        "(1)(a) a debt not secured by a negotiable instrument,",
+                        "(1)(b) a share in the capital of a corporation,",
+                        "(1)(c) other movable property not in the possession of the judgment-debtor, except property deposited in, or in the custody of, any Court,",
                         "the attachment shall be made by a written order prohibiting,—",
-                        "(i) in the case of the debt, the creditor from recovering the debt and the debtor from making payment thereof until the further order of the Court;",
-                        "(ii) in the case of the share, the person in whose name the share may be standing from transferring the same or receiving any dividend thereon;",
-                        "(iii) in the case of the other movable property except as aforesaid, the person in possession of the same from giving it over to the judgment-debtor.",
+                        "(1)(c)(i) in the case of the debt, the creditor from recovering the debt and the debtor from making payment thereof until the further order of the Court;",
+                        "(1)(c)(ii) in the case of the share, the person in whose name the share may be standing from transferring the same or receiving any dividend thereon;",
+                        "(1)(c)(iii) in the case of the other movable property except as aforesaid, the person in possession of the same from giving it over to the judgment-debtor.",
                         "(2) A copy of such order shall be affixed on some conspicuous part of the court-house, and another copy shall be sent in the case of the debt, to the debtor, in the case of the share, to the proper officer of the corporation, and, in the case of the other movable property (except as aforesaid), to the person in possession of the same.",
                         "(3) A debtor prohibited under clause (i) of sub-rule (1) may pay the amount of his debt into Court, and such payment shall discharge him as effectually as payment to the party entitled to receive the same."
                     ]
@@ -5413,8 +5409,8 @@
                     "title": "48. Attachment of salary or allowances of servant of the Government or railway company or local authority.",
                     "description": [
                         "(1) Where the property to be attached is the salary or allowances of a [servant of the Government] or of a servant of a railway company or local authority [or of a servant of a corporation engaged in any trade or industry which is established by a Central, Provincial or State Act, or a Government company as defined in section 617 of the Companies Act, 1956 (1 of 1956)] the Court, whether the judgment-debtor or the disbursing officer is or is not within the local limits of the Court’s jurisdiction, may order that the amount shall, subject to the provisions of section 60, be withheld from such salary or allowances either in one payment or by monthly instalments as the Court may direct; and upon notice of the order to such officer as [the appropriate Government may by notification in the Official Gazette] appoint [in this behalf,—",
-                        "(a) where such salary or allowances are to be disbursed within the local limits to which this Code for the time being extends, the officer or other person whose duty it is to disburse the same shall withhold and remit to the Court the amount due under the order, or the monthly instalments, as the case may be;",
-                        "(b) where such salary or allowances are to be disbursed beyond the said limits, the officer or other person within those limits whose duty it is to instruct the disbursing authority regarding the amount of the salary or allowances to be disbursed shall remit to the Court the amount due under the order, or the monthly instalments, as the case may be, and shall direct the disbursing authority to reduce the aggregate of the amounts from time to time, to be disbursed by the aggregate of the amounts from time to time remitted to the Court.]",
+                        "(1)(a) where such salary or allowances are to be disbursed within the local limits to which this Code for the time being extends, the officer or other person whose duty it is to disburse the same shall withhold and remit to the Court the amount due under the order, or the monthly instalments, as the case may be;",
+                        "(1)(b) where such salary or allowances are to be disbursed beyond the said limits, the officer or other person within those limits whose duty it is to instruct the disbursing authority regarding the amount of the salary or allowances to be disbursed shall remit to the Court the amount due under the order, or the monthly instalments, as the case may be, and shall direct the disbursing authority to reduce the aggregate of the amounts from time to time, to be disbursed by the aggregate of the amounts from time to time remitted to the Court.]",
                         "(2) Where the attachable proportion of such salary or allowances is already being withheld and remitted to a Court in pursuance of a previous and unsatisfied order of attachment, the officer appointed by [the appropriate Government] in this behalf shall forthwith return the subsequent order to the Court issuing it with a full statement of all the particulars of the existing attachment.",
                         "(3) Every order made under this rule, unless it is returned in accordance with the provisions of sub-rule (2) shall, without further notice or other process, bind the appropriate Government or the railway company or local authority or corporation of Government company, as the case may be, while the judgment-debtor is within the local limits to which this Code for the time being extends and while he is beyond those limits, if he is in receipt of any salary or allowances payable out of the Consolidated Fund of India or the Consolidated Fund of the State or the funds of a railway company or local authority or corporation or Government company in India; and the appropriate Government or the railway company or local authority or corporation or Government company, as the case may be, shall be liable for any sum paid in contravention of this rule.",
                         "Explanation- In this rule, 'appropriate Government' means,—",
@@ -5445,9 +5441,9 @@
                     "title": "50. Execution of decree against firm.",
                     "description": [
                         "(1) Where a decree has been passed against a firm, execution may be granted—",
-                        "(a) against any property of the partnership;",
-                        "(b) against any person who has appeared in his own name under rule 6 or rule 7 of Order XXX or who has admitted on the pleadings that he is, or who has been adjudged to be, a partner;",
-                        "(c) against any person who has been individually served as a partner with a summons and has failed to appear:",
+                        "(1)(a) against any property of the partnership;",
+                        "(1)(b) against any person who has appeared in his own name under rule 6 or rule 7 of Order XXX or who has admitted on the pleadings that he is, or who has been adjudged to be, a partner;",
+                        "(1)(c) against any person who has been individually served as a partner with a summons and has failed to appear:",
                         "Provided that nothing in this sub-rule shall be deemed to limit or otherwise affect the provisions of [section 30 of the Indian Partnership Act, 1932 (9 of 1932)].",
                         "(2) Where the decree-holder claims to be entitled to cause the decree to be executed against any person other than such a person as is referred to in sub-rule (1), clauses (b) and (c), as being a partner in the firm, he may apply to the Court which passed the decree for leave, and where the liability is not disputed, such court may grant such leave, or, where such liability is disputed, may order that the liability of such person be tried and determined in any manner in which any issue in a suit may be tried and determined.",
                         "(3) Where the liability of any person has been tried and determined under sub-rule (2), the order made thereon shall have the same force and be subject to the same conditions as to appeal or otherwise as if it were a decree.",
@@ -5472,11 +5468,11 @@
                     "title": "53. Attachment of decrees.",
                     "description": [
                         "(1) Where the property to be attached is a decree, either for the payment of money or for sale in enforcement of a mortgage or charge, the attachment shall be made,—",
-                        "(a) if the decrees were passed by the same Court, then by Order of such Court, and",
-                        "(b) if the decree sought to be attached was passed by another Court, then by the issue to such other Court of a notice by the Court which passed the decree sought to be executed, requesting such other Court to stay the execution of its decree unless and until—",
-                        "(i) the court which passed the decree sought to be executed cancels the notice, or",
-                        "(ii) (a) the holder of the decree sought to be executed, or",
-                        "(b) his judgment-debtor with the previous consent in writing of such decree-holder, or with the permission of the attaching Court, applies to the Court receiving such notice to execute the attached decree.",
+                        "(1)(a) if the decrees were passed by the same Court, then by Order of such Court, and",
+                        "(1)(b) if the decree sought to be attached was passed by another Court, then by the issue to such other Court of a notice by the Court which passed the decree sought to be executed, requesting such other Court to stay the execution of its decree unless and until—",
+                        "(1)(b)(i) the court which passed the decree sought to be executed cancels the notice, or",
+                        "(1)(b)(ii) (a) the holder of the decree sought to be executed, or",
+                        "(1)(b)(ii) (b) his judgment-debtor with the previous consent in writing of such decree-holder, or with the permission of the attaching Court, applies to the Court receiving such notice to execute the attached decree.",
                         "(2) Where a Court makes an order under clause (a) of sub-rule (1), or receives an application under sub-head (ii) of clause (b) of the said sub-rule, it shall, on the application of the creditor who has attached the decree or his judgment-debtor, proceed to execute the attached decree and apply the net proceeds in satisfaction of the decree sought to be executed.",
                         "(3) The holder of a decree sought to be executed by the attachment of another of decree the nature specified in sub-rule (1) shall be deemed to be the representative of the holder of the attached decree and to be entitled to execute such attached decree in any manner lawful for the holder thereof.",
                         "(4) Where the property to be attached in the execution of a decree is a decree other than a decree of the nature referred to in sub-rule (1), the attachment shall be made, by a notice by the Court which passed the decree sought to be executed, to the holder of the decree sought to be attached, prohibiting him from transferring or charging the same in any way, and, where such decree has been passed by any other Court, also by sending to such other Court a notice to abstain from executing the decree sought to be attached until such notice is cancelled by the Court from which it was sent",
@@ -5524,10 +5520,10 @@
                         "(b) where the Court considers that the claim or objection was designedly or unnecessarily delayed",
                         "(2) All questions (including questions relating to right, title or interest in the property attached) arising between the parties to a proceeding or their representatives under this rule shall be determined by the Court dealing with the claim or objection.",
                         "(3) Upon the determination of the questions referred to in sub-rule (2), the Court shall, in accordance with such determination, —",
-                        "(a) allow the claim or objection and release the property from attachment either wholly or to such extent as it thinks fit; or",
-                        "(b) disallow the claim or objection; or",
-                        "(c) continue the attachment subject to any mortgage, charge or other interest in favour of any person; or",
-                        "(d) pass such order as in the circumstances of the case it deems fit.",
+                        "(3)(a) allow the claim or objection and release the property from attachment either wholly or to such extent as it thinks fit; or",
+                        "(3)(b) disallow the claim or objection; or",
+                        "(3)(c) continue the attachment subject to any mortgage, charge or other interest in favour of any person; or",
+                        "(3)(d) pass such order as in the circumstances of the case it deems fit.",
                         "(4) Where any claim or objection has been adjudicated upon under this rule, order made thereon shall have the same force and be subject to the same conditions as to appeal or otherwise as if it were a decree",
                         "entertain it, the party against whom such order is made may institute a suit to establish the right which he claims to the property in dispute; but, subject to the result of suchsuit, if any, an order so refusing to entertain the claim or objection shall be conclusive."
                     ]
@@ -5567,11 +5563,11 @@
                     "description": [
                         "(1) Where any property is ordered to be sold by public auction in execution of a decree, the Court shall cause a proclamation of the intended sale to be made in the language of such Court.",
                         "(2) Such proclamation shall be drawn up after notice to the decree-holder and the judgment-debtor and shall state the time and place of sale, and specify as fairly and accurately as possible—",
-                        "(a) the property to be sold or, where a part of the property would be sufficient to satisfy the decree, such part;",
-                        "(b) the revenue assessed upon the estate or part of the estate, where the property to be sold is an interest in an estate or in part of an estate paying revenue to the Government;",
-                        "(c) any incumbrance to which the property is liable;",
-                        "(d) the amount for the recovery of which the sale is ordered; and",
-                        "(e) every other thing which the Court considers material for a purchaser to know in order to judge of the nature and value of the property.",
+                        "(2)(a) the property to be sold or, where a part of the property would be sufficient to satisfy the decree, such part;",
+                        "(2)(b) the revenue assessed upon the estate or part of the estate, where the property to be sold is an interest in an estate or in part of an estate paying revenue to the Government;",
+                        "(2)(c) any incumbrance to which the property is liable;",
+                        "(2)(d) the amount for the recovery of which the sale is ordered; and",
+                        "(2)(e) every other thing which the Court considers material for a purchaser to know in order to judge of the nature and value of the property.",
                         "Provided that where notice of the date for settling the terms of the proclamation has been given to the judgment-debtor by means of an order under rule 54, it shall not be necessary to give notice under this rule to the judgment-debtor unless the Court otherwise directs.",
                         "Provided further that nothing in this rule shall be construed as requiring the Court to enter in the proclamation of sale its own estimate of the value of the property, but the proclamation shall include the estimate, if any, given, by either or both of the parties.",
                         "(3) Every application for an order for sale under this rule shall be accompanied by a statement signed and verified in the manner hereinbefore prescribed for the signing and verification of pleadings and containing, so far as they are known to or can be ascertained by the person making the verification, the matters required by sub-rule (2) to be specified in the proclamation.",
@@ -5626,8 +5622,8 @@
                     "description": [
                         "(1) Notwithstanding anything contained in rule 72, a mortgagee of immovable property shall not bid for or purchase property sold in execution of a decree on the mortgage unless the Court grants him leave to bid for or purchase the property.",
                         "(2) If leave to bid is granted to such mortgagee, then the Court shall fix a reserve price as regards the mortgagee, and unless the Court otherwise directs, the reserve price shall be—",
-                        "(a) not less than the amount then due for principal, interest and costs in respect of the mortgage if the property is sold in one lot; and",
-                        "(b) in the case of any property sold in lots, not less than such sum as shall appear to the Court to be properly attributable to each lot in relation to the amount then due for principal, interest and costs on the mortgage.",
+                        "(2)(a) not less than the amount then due for principal, interest and costs in respect of the mortgage if the property is sold in one lot; and",
+                        "(2)(b) in the case of any property sold in lots, not less than such sum as shall appear to the Court to be properly attributable to each lot in relation to the amount then due for principal, interest and costs on the mortgage.",
                         "(3) In other respects, the provisions of sub-rules (2) and (3) of rule 72 shall apply in relation to purchase by the decree-holder under that rule."
                     ]
                 },
@@ -5641,12 +5637,12 @@
                     "title": "74. Sale of agricultural produce.",
                     "description": [
                         "(1) Where the property to be sold is agricultural produce, the sale shall be held,—",
-                        "(a) if such produce is a growing crop, on or near the land on which such crop has grown, or",
-                        "(b) if such produce has been cut or gathered, at or near the threshing floor or place for trading out grain or the like or fodder-stack on or in which it is deposited:",
+                        "(1)(a) if such produce is a growing crop, on or near the land on which such crop has grown, or",
+                        "(1)(b) if such produce has been cut or gathered, at or near the threshing floor or place for trading out grain or the like or fodder-stack on or in which it is deposited:",
                         "Provided that the Court may direct the sale to be held at the nearest place of public resort, if it is of opinion that the produce is thereby likely to sell to greater advantage.",
                         "(2) Where, on the produce being put up for sale,—",
-                        "(a) a fair price, in the estimation of the person holding the sale, is not offered for it, and",
-                        "(b) the owner of the produce or a person authorized to act in his behalf applies to have the sale postponed till next day or, if a market is held at the place of sale, the next market-day,",
+                        "(2)(a) a fair price, in the estimation of the person holding the sale, is not offered for it, and",
+                        "(2)(b) the owner of the produce or a person authorized to act in his behalf applies to have the sale postponed till next day or, if a market is held at the place of sale, the next market-day,",
                         "the sale shall be postponed accordingly and shall be then completed, whatever price may be offered for the produce."
                     ]
                 },
@@ -5751,8 +5747,8 @@
                     "title": "89. Application to set aside sale on deposit.",
                     "description": [
                         "(1) Where immovable property has been sold in execution of a decree, any person claiming an interest in the property sold at the time of the sale or at the time of making the application, or acting for or in the interest of such person, may apply to have the sale set aside on his depositing in Court,—",
-                        "(a) for payment to the purchaser, a sum equal to five per cent. of the purchase-money, and",
-                        "(b) for payment to the decree-holder, the amount specified in the proclamation of sale as that for the recovery of which the sale was ordered, less any amount which may, since the date of such proclamation of sale, have been received by the decree-holder.",
+                        "(1)(a) for payment to the purchaser, a sum equal to five per cent. of the purchase-money, and",
+                        "(1)(b) for payment to the decree-holder, the amount specified in the proclamation of sale as that for the recovery of which the sale was ordered, less any amount which may, since the date of such proclamation of sale, have been received by the decree-holder.",
                         "(2) Where a person applies under rule 90 to set aside the sale of his immovable property, he shall not, unless he withdraws his application, be entitled to make or prosecute an application under this rule.",
                         "(3) Nothing in this rule shall relieve the judgment-debtor from any liability he may be under in respect of costs and interest not covered by the proclamation of sale."
                     ]
@@ -5821,8 +5817,8 @@
                     "title": "98. Orders after adjudication.",
                     "description": [
                         "(1) Upon the determination of the questions referred to in rule 101, the Court shall, in accordance with such determination and subject to the provisions of sub-rule (2),—",
-                        "(a) make an order allowing the application and directing that the applicant be put into possession of the property or dismissing the application; or",
-                        "(b) pass such other order as, in the circumstances of the case, it may deem fit.",
+                        "(1)(a) make an order allowing the application and directing that the applicant be put into possession of the property or dismissing the application; or",
+                        "(1)(b) pass such other order as, in the circumstances of the case, it may deem fit.",
                         "(2) Where, upon such determination, the Court is satisfied that the resistance or obstruction was occasioned without any just cause by the judgment-debtor or by some other person at his instigation or on his behalf, or by any transferee, where such transfer was made during the pendency of the suit or execution proceeding, it shall direct that the applicant be put into possession of the property, and where the applicant is still resisted or obstructed in obtaining possession, the Court may also, at the instance of the applicant, order the judgment-debtor, or any person acting at his instigation or on his behalf, to be detained in the civil prison for a term which may extend to thirty days."
                     ]
                 },
@@ -5917,9 +5913,8 @@
                         "(2) Any person so made a party may make any defence appropriate to his character as legal representative of the deceased defendant.",
                         "(3) Where within the time limited by law no application is made under sub-rule (1), the suit shall abate as against the deceased defendant.",
                         "(4) The Court, whenever it thinks fit, may exempt the plaintiff from the necessity of substituting the legal representatives of any such defendant who has failed to file a written statement or who, having filed it, has failed to appear and contest the suit at the hearing; and judgment may, in such case, be pronounced against the said defendant notwithstanding the death of such defendant and shall have the same force and effect as if it had been pronounced before death took place.",
-                        "(5) Where—",
-                        "    (a) the plaintiff was ignorant of the death of a defendant, and could not, for that reason, make an application for the substitution of the legal representative of the defendant under this rule within the period specified in the Limitation Act, 1963 (36 of 1963), and the suit has, in consequence, abated, and",
-                        "    (b) the plaintiff applies after the expiry of the period specified therefore in the Limitation Act, 1963 (36 of 1963), for setting aside the abatement and also for the admission of that application under section 5 of that Act on the ground that he had, by reason of such ignorance, sufficient cause for not making the application within the period specified in the said Act,",
+                        "    (5)Where—(a) the plaintiff was ignorant of the death of a defendant, and could not, for that reason, make an application for the substitution of the legal representative of the defendant under this rule within the period specified in the Limitation Act, 1963 (36 of 1963), and the suit has, in consequence, abated, and",
+                        "    (5)(b) the plaintiff applies after the expiry of the period specified therefore in the Limitation Act, 1963 (36 of 1963), for setting aside the abatement and also for the admission of that application under section 5 of that Act on the ground that he had, by reason of such ignorance, sufficient cause for not making the application within the period specified in the said Act,",
                         "the Court shall, in considering the application under the said section 5, have due regard to the fact of such ignorance, if proved."
                     ]
                 },
@@ -5928,8 +5923,8 @@
                     "description": [
                         "(1) If, in any suit, it shall appear to the Court that any party who has died during the pendency of the suit has no legal representative, the Court may, on the application of any party to the suit, proceed in the absence of a person representing the estate of the deceased person, or may by order appoint the Administrator-General, or an officer of the Court or such other person as it thinks fit to represent the estate of the deceased person for the purpose of the suit; and any judgment or order subsequently given or made in the suit shall bind the estate of the deceased person to the same extent as he would have been bound if a personal representative of the deceased person had been a party to the suit.",
                         "(2) Before making an order under this rule, the Court—",
-                        "    (a) may require notice of the application for the order to be given to such (if any) of the persons having an interest in the estate of the deceased person as it thinks fit; and",
-                        "    (b) shall ascertain that the person proposed to be appointed to represent the estate of the deceased person is willing to be so appointed and has no interest adverse to that of the deceased person."
+                        "    (2)(a) may require notice of the application for the order to be given to such (if any) of the persons having an interest in the estate of the deceased person as it thinks fit; and",
+                        "    (2)(b) shall ascertain that the person proposed to be appointed to represent the estate of the deceased person is willing to be so appointed and has no interest adverse to that of the deceased person."
                     ]
                 },
                 {
@@ -6005,12 +6000,12 @@
                         "Provided that where the plaintiff is a minor or other person to whom the provisions contained in rules 1 to 14 of Order XXXII extend, neither the suit nor any part of the claim shall be abandoned without the leave of the Court.",
                         "(2) An application for leave under the proviso to sub-rule (1) shall be accompanied by an affidavit of the next friend and also, if the minor or such other person is represented by a pleader, by a certificate of the pleader to the effect that the abandonment proposed is, in his opinion, for the benefit of the minor or such other person.",
                         "(3) Where the Court is satisfied,—",
-                        "(a) that a suit must fail by reason of some formal defect, or",
-                        "(b) that there are sufficient grounds for allowing the plaintiff to institute a fresh suit for the subject matter of suit or part of a claim,",
+                        "(3)(a) that a suit must fail by reason of some formal defect, or",
+                        "(3)(b) that there are sufficient grounds for allowing the plaintiff to institute a fresh suit for the subject matter of suit or part of a claim,",
                         "It may, on such terms as it thinks fit grant the plaintiff permission to withdraw from such suit or such part of the claim with liberty to institute a fresh suit in respect of the subject-matter of such suit or such part of the claim.",
                         "(4) Where the plaintiff—",
-                        "(a) abandons any suit or part of claim under sub-rule (1), or",
-                        "(b) withdraws from a suit or part of a claim without the permission referred to in sub-rule (3),",
+                        "(4)(a) abandons any suit or part of claim under sub-rule (1), or",
+                        "(4)(b) withdraws from a suit or part of a claim without the permission referred to in sub-rule (3),",
                         "he shall be liable for such costs as the Court may award and shall be precluded from instituting any fresh suit in respect of such subject-matter or such part of the claim.",
                         "(5) Nothing in this rule shall be deemed to authorize the Court to permit one of several plaintiffs to abandon a suit or part of a claim under sub-rule (1), or to withdraw, under sub-rule (3), any suit or part of a claim, without the consent of the other plaintiffs."
                     ]
@@ -6143,9 +6138,9 @@
                     "title": "4. Persons for whose examination commission may issue.",
                     "description": [
                         "(1) Any Court may in any suit issue a commission for the examination on interrogatories or otherwise of:",
-                        "(a) any person resident beyond the local limits of its jurisdiction;",
-                        "(b) any person who is about to leave such limits before the date on which he is required to be examined in Court;",
-                        "(c) any person in the service of the Government who cannot, in the opinion of the Court, attend without detriment to the public service.",
+                        "(1)(a) any person resident beyond the local limits of its jurisdiction;",
+                        "(1)(b) any person who is about to leave such limits before the date on which he is required to be examined in Court;",
+                        "(1)(c) any person in the service of the Government who cannot, in the opinion of the Court, attend without detriment to the public service.",
                         "Provided that where, under rule 19 of Order XVI, a person cannot be ordered to attend a Court in person, a commission shall be issued for his examination if his evidence is considered necessary in the interests of justice.",
                         "Provided further that a commission for examination of such person on interrogatories shall not be issued unless the Court, for reasons to be recorded, thinks it necessary so to do.",
                         "(2) Such commission may be issued to any Court, not being a High Court, within the local limits of whose jurisdiction such person resides, or to any pleader or other person whom the Court issuing the commission may appoint.",
@@ -6303,14 +6298,14 @@
                     "title": "19. Cases in which High Court may issue commission to examine witness.",
                     "description": [
                         "(1) If a High Court is satisfied:",
-                        "(a) that a foreign court situated in a foreign country wishes to obtain the evidence of a witness in any proceeding before it,",
-                        "(b) that the proceeding is of a civil nature, and",
-                        "(c) that the witness is residing within the limits of the High Court’s appellate jurisdiction,",
+                        "(1)(a) that a foreign court situated in a foreign country wishes to obtain the evidence of a witness in any proceeding before it,",
+                        "(1)(b) that the proceeding is of a civil nature, and",
+                        "(1)(c) that the witness is residing within the limits of the High Court’s appellate jurisdiction,",
                         "it may, subject to the provisions of rule 20, issue a commission for the examination of such witness.",
                         "(2) Evidence may be given of the matters specified in clause (a), (b), and (c) of sub-rule (1):",
-                        "(a) by a certificate signed by the consular officer of the foreign country of the highest rank in India and transmitted to the High Court through the Central Government, or",
-                        "(b) by a letter of request issued by the foreign Court and transmitted to the High Court through the Central Government, or",
-                        "(c) by a letter of request issued by the foreign court and produced before the High Court by a party to the proceeding."
+                        "(2)(a) by a certificate signed by the consular officer of the foreign country of the highest rank in India and transmitted to the High Court through the Central Government, or",
+                        "(2)(b) by a letter of request issued by the foreign Court and transmitted to the High Court through the Central Government, or",
+                        "(2)(c) by a letter of request issued by the foreign court and produced before the High Court by a party to the proceeding."
                     ]
                 },
                 {
@@ -6566,8 +6561,8 @@
                     "description": [
                         "(1) Notwithstanding anything contained in section 45 of the Indian Contract Act, 1872 (9 of 1872) where two or more persons may sue or be sued in the name of a firm under the foregoing provisions and any of such persons dies, whether before the institution or during the pendency of any suit, it shall not be necessary to join the legal representative of the deceased as a party to the suit.",
                         "(2) Nothing in sub-rule (1) shall limit or otherwise affect any right which the legal representative of the deceased may have—",
-                        "(a) to apply to be made a party to the suit, or",
-                        "(b) to enforce any claim against the survivor or survivors."
+                        "(2)(a) to apply to be made a party to the suit, or",
+                        "(2)(b) to enforce any claim against the survivor or survivors."
                     ]
                 },
                 {
@@ -6699,8 +6694,8 @@
                     "title": "6. Receipt by next friend or guardian for the suit of property under decree for minor.",
                     "description": [
                         "(1) A next friend or guardian for the suit shall not, without the leave of the Court, receive any money or other movable property on behalf of a minor either—",
-                        "(a) by way of compromise before decree or order, or",
-                        "(b) under a decree or order in favour of the minor.",
+                        "(1)(a) by way of compromise before decree or order, or",
+                        "(1)(b) under a decree or order in favour of the minor.",
                         "(2) Where the next friend or guardian for the suit has not been appointed or declared by competent authority to be guardian of the property of the minor, or, having been so appointed or declared, is under any disability known to the Court to receive the money or other movable property, the Court shall, if it grants him leave to receive the property, require such security and give such directions as will, in its opinion, sufficiently protect the property from waste and ensure its proper application.",
                         "Provided that the Court may, for reasons to be recorded, dispense with such security while granting leave to the next friend or guardian for the suit to receive money or other movable property under a decree or order, where such next friend or guardian—",
                         "(a) is the manager of a Hindu undivided family and the decree or order relates to the property or business of the family; or",
@@ -6793,13 +6788,13 @@
                     "description": [
                         "(1) The provisions of this Order shall apply to suits or proceedings relating to matters concerning the family.",
                         "(2) In particular, and without prejudice to the generality of the provisions of sub-rule (1), the provisions of this Order shall apply to the following suits or proceedings concerning the family, namely:",
-                        "(a) a suit or proceeding for matrimonial relief, including a suit or proceeding for declaration as to the validity of a marriage or as to the matrimonial status of any person;",
-                        "(b) a suit or proceeding for a declaration as to legitimacy of any person;",
-                        "(c) a suit or proceeding in relation to the guardianship of the person or the custody of any minor or other member of the family, under a disability;",
-                        "(d) a suit or proceeding for maintenance;",
-                        "(e) a suit or proceeding as to the validity or effect of an adoption;",
-                        "(f) a suit or proceeding, instituted by a member of the family, relating to wills, intestacy and succession;",
-                        "(g) a suit or proceeding relating to any other matter concerning the family in respect of which the parties are subject to their personal law.",
+                        "(2)(a) a suit or proceeding for matrimonial relief, including a suit or proceeding for declaration as to the validity of a marriage or as to the matrimonial status of any person;",
+                        "(2)(b) a suit or proceeding for a declaration as to legitimacy of any person;",
+                        "(2)(c) a suit or proceeding in relation to the guardianship of the person or the custody of any minor or other member of the family, under a disability;",
+                        "(2)(d) a suit or proceeding for maintenance;",
+                        "(2)(e) a suit or proceeding as to the validity or effect of an adoption;",
+                        "(2)(f) a suit or proceeding, instituted by a member of the family, relating to wills, intestacy and succession;",
+                        "(2)(g) a suit or proceeding relating to any other matter concerning the family in respect of which the parties are subject to their personal law.",
                         "(3) So much of this Order as relates to a matter provided for by a special law in respect of any suit or proceeding shall not apply to that suit or proceeding."
                     ]
                 },
@@ -6834,8 +6829,8 @@
                     "description": [
                         "For the purposes of this Order, each of the following shall be treated as constituting a family, namely:",
                         "(a) (i) a man and his wife living together,",
-                        "    (ii) any child or children, being issue of theirs; or of such man or such wife,",
-                        "    (iii) any child or children being maintained by such man and wife;",
+                        "(a)(ii) any child or children, being issue of theirs; or of such man or such wife,",
+                        "(a)(iii) any child or children being maintained by such man and wife;",
                         "(b) a man not having a wife or not living together with his wife, any child or children, being issue of his, and any child or children being maintained by him;",
                         "(c) a woman not having a husband or not living together with her husband, any child or children being issue of hers, and any child or children being maintained by her;",
                         "(d) a man or woman and his or her brother, sister, ancestor or lineal descendant living with him or her;",
@@ -6935,9 +6930,9 @@
                     "description": [
                         "(1) Where a person, who is permitted to sue as an indigent person, is not represented by a pleader, the Court may, if the circumstances of the case so require, assign a pleader to him.",
                         "(2) The High Court may, with the previous approval of the State Government, make rules providing for:",
-                        "(a) the mode of selecting pleaders to be assigned;",
-                        "(b) the facilities to be provided to such pleaders by the Court;",
-                        "(c) any other matter which is required to be or may be provided by the rules for giving effect to the provisions of sub-rule (1).]"
+                        "(2)(a) the mode of selecting pleaders to be assigned;",
+                        "(2)(b) the facilities to be provided to such pleaders by the Court;",
+                        "(2)(c) any other matter which is required to be or may be provided by the rules for giving effect to the provisions of sub-rule (1).]"
                     ]
                 },
                 {
@@ -7031,13 +7026,13 @@
                     "description": [
                         "(1) In a suit for foreclosure, if the plaintiff succeeds, the Court shall pass a preliminary decree:",
                         "(a) ordering that an account be taken of what was due to the plaintiff at the date of such decree for:",
-                        "    (i) principal and interest on the mortgage,",
-                        "    (ii) the costs of suit, if any, awarded to him, and",
-                        "    (iii) other costs, charges, and expenses properly incurred by him up to that date in respect of his mortgage-security, together with interest thereon;",
+                        "(a)(i) principal and interest on the mortgage,",
+                        "(a)(ii) the costs of suit, if any, awarded to him, and",
+                        "(a)(iii) other costs, charges, and expenses properly incurred by him up to that date in respect of his mortgage-security, together with interest thereon;",
                         "(b) declaring the amount so due at that date; and",
                         "(c) directing:",
-                        "    (i) that, if the defendant pays into Court the amount so found or declared due on or before such date as the Court may fix within six months from the date on which the Court confirms and countersigns the account taken under clause (a), or from the date on which such amount is declared in Court under clause (b), as the case may be, and thereafter pays such amount as may be adjudged due in respect of subsequent costs, charges and expenses as provided in rule 10, together with subsequent interest on such sums respectively as provided in rule 11, the plaintiff shall deliver up to the defendant, or to such person as the defendant appoints, all documents in his possession or power relating to the mortgaged property, and shall, if so required, re-transfer the property to the defendant at his cost free from the mortgage and from all incumbrances created by the plaintiff or any person claiming under him, or, where the plaintiff claims by derived title, by those under whom he claims, and shall also, if necessary, put the defendant in possession of the property; and",
-                        "    (ii) that, if payment of the amount found or declared due under or by the preliminary decree is not made on or before the date so fixed, or the defendant fails to pay, within such time as the Court may fix, the amount adjudged due in respect of subsequent costs, charges, expenses and interest, the plaintiff shall be entitled to apply for a final decree debarring the defendant from all right to redeem the property.",
+                        "(c)(i) that, if the defendant pays into Court the amount so found or declared due on or before such date as the Court may fix within six months from the date on which the Court confirms and countersigns the account taken under clause (a), or from the date on which such amount is declared in Court under clause (b), as the case may be, and thereafter pays such amount as may be adjudged due in respect of subsequent costs, charges and expenses as provided in rule 10, together with subsequent interest on such sums respectively as provided in rule 11, the plaintiff shall deliver up to the defendant, or to such person as the defendant appoints, all documents in his possession or power relating to the mortgaged property, and shall, if so required, re-transfer the property to the defendant at his cost free from the mortgage and from all incumbrances created by the plaintiff or any person claiming under him, or, where the plaintiff claims by derived title, by those under whom he claims, and shall also, if necessary, put the defendant in possession of the property; and",
+                        "(c)(ii) that, if payment of the amount found or declared due under or by the preliminary decree is not made on or before the date so fixed, or the defendant fails to pay, within such time as the Court may fix, the amount adjudged due in respect of subsequent costs, charges, expenses and interest, the plaintiff shall be entitled to apply for a final decree debarring the defendant from all right to redeem the property.",
                         "(2) The Court may, on good cause shown and upon terms to be fixed by the Court, from time to time, at any time before a final decree is passed, extend the time fixed for the payment of the amount found or declared due under sub-rule (1) or of the amount adjudged due in respect of subsequent costs, charges, expenses and interest.",
                         "(3) Where, in a suit for foreclosure, subsequent mortgagees or persons deriving title from, or subrogated to the rights of, any such mortgagees are joined as parties, the preliminary decree shall provide for the adjudication of the respective rights and liabilities of the parties to the suit in the manner and form set forth in Form No. 9 or Form No. 10, as the case may be, of Appendix D with such variations as the circumstances of the case may require. "
                     ]
@@ -7046,9 +7041,9 @@
                     "title": "3. Final decree in foreclosure suit",
                     "description": [
                         "(1) Where, before a final decree debarring the defendant from all right to redeem the mortgaged property has been passed, the defendant makes payment into Court of all amounts due from him under sub-rule (1) of rule 2, the Court shall, on application made by the defendant, pass a final decree—",
-                        "(a) ordering the plaintiff to deliver up the documents referred to in the preliminary decree, and, if necessary,",
-                        "(b) ordering him to re-transfer at the cost of the defendant the mortgaged property as directed in the said decree, and also, if necessary,",
-                        "(c) ordering him to put the defendant in possession of the property.",
+                        "(1)(a) ordering the plaintiff to deliver up the documents referred to in the preliminary decree, and, if necessary,",
+                        "(1)(b) ordering him to re-transfer at the cost of the defendant the mortgaged property as directed in the said decree, and also, if necessary,",
+                        "(1)(c) ordering him to put the defendant in possession of the property.",
                         "(2) Where payment in accordance with sub-rule (1) has not been made, the Court shall, on application made by the plaintiff, pass a final decree declaring that the defendant and all persons claiming through or under him are debarred from all right to redeem the mortgaged property and also, if necessary, ordering the defendant to put the plaintiff in possession of the property.",
                         "(3) On the passing of a final decree under sub-rule (2), all liabilities to which the defendant is subject in respect of the mortgage or on account of the suit shall be deemed to have been discharged."
                     ]
@@ -7066,9 +7061,9 @@
                     "title": "5. Final decree in suit for sale",
                     "description": [
                         "(1) Where, on or before the day fixed or at any time before the confirmation of a sale made in pursuance of a final decree passed under sub-rule (3) of this rule, the defendant makes payment into Court of all amounts due from him under sub-rule (1) of rule 4, the Court shall, on application made by the defendant in this behalf, pass a final decree or, if such decree has been passed, an order—",
-                        "(a) ordering the plaintiff to deliver up the documents referred to in the preliminary decree, and, if necessary,",
-                        "(b) ordering him to transfer the mortgaged property as directed in the said decree, and, also, if necessary,",
-                        "(c) ordering him to put the defendant in possession of the property.",
+                        "(1)(a) ordering the plaintiff to deliver up the documents referred to in the preliminary decree, and, if necessary,",
+                        "(1)(b) ordering him to transfer the mortgaged property as directed in the said decree, and, also, if necessary,",
+                        "(1)(c) ordering him to put the defendant in possession of the property.",
                         "(2) Where the mortgaged property or part thereof has been sold in pursuance of a decree passed under sub-rule (3) of this rule, the Court shall not pass an order under sub-rule (1) of this rule, unless the defendant, in addition to the amount mentioned in sub-rule (1), deposits in Court for payment to the purchaser a sum equal to five per cent of the amount of the purchase-money paid into Court by the purchaser.",
                         "Where such deposit has been made, the purchaser shall be entitled to an order for repayment of the amount of the purchase-money paid into Court by him, together with a sum equal to five per cent thereof.",
                         "(3) Where payment in accordance with sub-rule (1) has not been made, the Court shall, on application made by the plaintiff in this behalf, pass a final decree directing that the mortgaged property or a sufficient part thereof be sold, and that the proceeds of the sale be dealt with in the manner provided in sub-rule (1) of rule 4."
@@ -7084,16 +7079,16 @@
                     "title": "7. Preliminary decree in redemption suit",
                     "description": [
                         "(1) In a suit for redemption, if the plaintiff succeeds, the Court shall pass a preliminary decree—",
-                        "(a) ordering that an account be taken of what was due to the defendant at the date of such decree for—",
-                        "(i) principal and interest on the mortgage,",
-                        "(ii) the costs of suit, if any, awarded to him, and",
-                        "(iii) other costs, charges and expenses properly incurred by him up to that date, in respect of mortgage-security, together with interest thereon; or",
-                        "(b) declaring the amount so due at that date; and",
-                        "(c) directing—",
-                        "(i) that, if the plaintiff pays into Court the amount so found or declared due on or before such date as the Court may fix within six months from the date on which the Court confirms and countersigns the account taken under clause (a), or from the date on which such amount is declared in Court under clause (b), as the case may be, and thereafter pays such amount as may be adjudged due in respect of subsequent costs, charges and expenses as provided in rule 10, together with subsequent interest on such sums respectively as provided in rule 11, the defendant shall deliver up to the plaintiff, or to such person as the plaintiff appoints, all documents in his possession or power relating to the mortgaged property, and shall, if so required, retransfer the property to the plaintiff at his cost free from the mortgage and from all encumbrances created by the defendant or any person claiming under him where the defendant claims by derived title, by those under whom the claims, and shall also, if necessary put the plaintiff in possession of the property; and",
-                        "(ii) that, if payment of the amount found or declared due under or by the preliminary decree is not made on or before the date so fixed, or the plaintiff fails to pay, within such time as the Court may fix, the amount adjudged due in respect of subsequent costs, charges, expenses and interest, the defendant shall be entitled to apply for a final decree—",
-                        "(a) in the case of a mortgage other than a usufructuary mortgage, a mortgage by conditional sale, or an anomalous mortgage the terms of which provide for foreclosure only and not for sale, that the mortgage property, be sold, or",
-                        "(b) in the case of a mortgage by conditional sale or such an anomalous mortgage as aforesaid, that the plaintiff be debarred from all right to redeem the property.",
+                        "(1)(a) ordering that an account be taken of what was due to the defendant at the date of such decree for—",
+                        "(1)(a)(i) principal and interest on the mortgage,",
+                        "(1)(a)(ii) the costs of suit, if any, awarded to him, and",
+                        "(1)(a)(iii) other costs, charges and expenses properly incurred by him up to that date, in respect of mortgage-security, together with interest thereon; or",
+                        "(1)(b) declaring the amount so due at that date; and",
+                        "(1)(c) directing—",
+                        "(1)(c)(i) that, if the plaintiff pays into Court the amount so found or declared due on or before such date as the Court may fix within six months from the date on which the Court confirms and countersigns the account taken under clause (a), or from the date on which such amount is declared in Court under clause (b), as the case may be, and thereafter pays such amount as may be adjudged due in respect of subsequent costs, charges and expenses as provided in rule 10, together with subsequent interest on such sums respectively as provided in rule 11, the defendant shall deliver up to the plaintiff, or to such person as the plaintiff appoints, all documents in his possession or power relating to the mortgaged property, and shall, if so required, retransfer the property to the plaintiff at his cost free from the mortgage and from all encumbrances created by the defendant or any person claiming under him where the defendant claims by derived title, by those under whom the claims, and shall also, if necessary put the plaintiff in possession of the property; and",
+                        "(1)(c)(ii) that, if payment of the amount found or declared due under or by the preliminary decree is not made on or before the date so fixed, or the plaintiff fails to pay, within such time as the Court may fix, the amount adjudged due in respect of subsequent costs, charges, expenses and interest, the defendant shall be entitled to apply for a final decree—",
+                        "(1)(c)(ii)(a) in the case of a mortgage other than a usufructuary mortgage, a mortgage by conditional sale, or an anomalous mortgage the terms of which provide for foreclosure only and not for sale, that the mortgage property, be sold, or",
+                        "(1)(c)(ii)(b) in the case of a mortgage by conditional sale or such an anomalous mortgage as aforesaid, that the plaintiff be debarred from all right to redeem the property.",
                         "(2) The Court may, on good cause shown and upon terms to be fixed by the Court, from time to time, at any time before the passing of a final decree for foreclosure or sale, as the case may be, extend the time fixed for the payment of the amount found or declared due under sub-rule (1) or of the amount adjudged due in respect of subsequent costs, charges, expenses and interest."
                     ]
                 },
@@ -7101,15 +7096,15 @@
                     "title": "8. Final decree in redemption suit",
                     "description": [
                         "(1) Where, before a final decree debarring the plaintiff from all right to redeem the mortgaged property has been passed or before the confirmation of a sale held in pursuance of a final decree passed under sub-rule (3) of this rule, the plaintiff makes payment into Court of all amounts due from him under sub-rule (1) of rule 7, the Court shall, on application made by the plaintiff in this behalf, pass a final decree or, if such decree has been passed, an order—",
-                        "(a) ordering the defendant to deliver up the documents referred to in the preliminary decree, and, if necessary,—",
-                        "(b) ordering him to re-transfer at the cost of the plaintiff the mortgaged property as directed in the said decree,",
+                        "(1)(a) ordering the defendant to deliver up the documents referred to in the preliminary decree, and, if necessary,—",
+                        "(1)(b) ordering him to re-transfer at the cost of the plaintiff the mortgaged property as directed in the said decree,",
                         "and, also, if necessary,—",
-                        "(c) ordering him to put the plaintiff in possession of the property.",
+                        "(1)(c) ordering him to put the plaintiff in possession of the property.",
                         "(2) Where the mortgaged property or a part thereof has been sold in pursuance of a decree passed under sub-rule (3) of this rule, the Court shall not pass an order under sub-rule (1) of this rule, unless the plaintiff, in addition to the amount mentioned in sub-rule (1), deposits in Court for payment to the purchaser a sum equal to five per cent. of the amount of the purchase-money paid into Court by the purchaser.",
                         "Where such deposit has been made, the purchaser shall be entitled to an order for repayment of the amount of the purchase-money paid into Court by him, together with a sum equal to five per cent. thereof.",
                         "(3) Where payment in accordance with sub-rule (1) has not been made, the Court shall, on application made by the defendant in this behalf,—",
-                        "(a) in the case of a mortgage by conditional sale or of such an anomalous mortgage as is hereinbefore referred to in rule 7, pass a final decree declaring that the plaintiff and all persons claiming under him are debarred from all right to redeem the mortgaged property and, also, if necessary, ordering the plaintiff to put the defendant in possession of the mortgaged property; or",
-                        "(b) in the case of any other mortgage, not being a usufructuary mortgage, pass a final decree that the mortgaged property or a sufficient part thereof be sold, and the proceeds of the sale (after deduction therefrom of the expenses of the sale) be paid into Court and applied in payment of what is found due to the defendant, and the balance, if any, be paid to the plaintiff or other persons entitled to receive the same."
+                        "(3)(a) in the case of a mortgage by conditional sale or of such an anomalous mortgage as is hereinbefore referred to in rule 7, pass a final decree declaring that the plaintiff and all persons claiming under him are debarred from all right to redeem the mortgaged property and, also, if necessary, ordering the plaintiff to put the defendant in possession of the mortgaged property; or",
+                        "(3)(b) in the case of any other mortgage, not being a usufructuary mortgage, pass a final decree that the mortgaged property or a sufficient part thereof be sold, and the proceeds of the sale (after deduction therefrom of the expenses of the sale) be paid into Court and applied in payment of what is found due to the defendant, and the balance, if any, be paid to the plaintiff or other persons entitled to receive the same."
                     ]
                 },
                 {
@@ -7142,8 +7137,8 @@
                     "description": [
                         "In any decree passed in a suit for foreclosure, sale or redemption, where interest is legally recoverable, the Court may order payment of interest to the mortgagee as follows:",
                         "(a) interest up to the date on or before which payment of the amount found or declared due is under the preliminary decree to be made by the mortgagor or other person redeeming the mortgage—",
-                        "(i) on the principal amount found or declared due on the mortgage, at the rate payable on the principal, or, where no such rate is fixed, at such rate as the Court deems reasonable.",
-                        "(ii) on the amount adjudged due to the mortgagee for costs, charges and expenses properly incurred by the mortgagee in respect of the mortgage-security up to the date of the preliminary decree and added to the mortgage-money, at the rate agreed between the parties or, failing such rate, at such rate not exceeding six per cent. per annum as the Court deems reasonable.",
+                        "(a)(i) on the principal amount found or declared due on the mortgage, at the rate payable on the principal, or, where no such rate is fixed, at such rate as the Court deems reasonable.",
+                        "(a)(ii) on the amount adjudged due to the mortgagee for costs, charges and expenses properly incurred by the mortgagee in respect of the mortgage-security up to the date of the preliminary decree and added to the mortgage-money, at the rate agreed between the parties or, failing such rate, at such rate not exceeding six per cent. per annum as the Court deems reasonable.",
                         "(b) subsequent interest up to the date of realization or actual payment on the aggregate of the principal sums specified in clause (a) as calculated in accordance with that clause at such rate as the Court deems reasonable."
                     ]
                 },
@@ -7210,12 +7205,12 @@
                     "title": "4. Procedure at first hearing",
                     "description": [
                         "(1) At the first hearing the Court may:",
-                        "(a) declare that the plaintiff is discharged from all liability to the defendants in respect of the thing claimed, award him his costs, and dismiss him from the suit; or",
-                        "(b) if it thinks that justice or convenience so require, retain all parties until the final disposal of the suit.",
+                        "(1)(a) declare that the plaintiff is discharged from all liability to the defendants in respect of the thing claimed, award him his costs, and dismiss him from the suit; or",
+                        "(1)(b) if it thinks that justice or convenience so require, retain all parties until the final disposal of the suit.",
                         "(2) Where the Court finds that the admission of the parties or other evidence enables it to do so, it may adjudicate the title to the thing claimed.",
                         "(3) Where the admissions of the parties do not enable the Court so to adjudicate, it may direct:",
-                        "(a) that an issue or issues between the parties be framed and tried, and",
-                        "(b) that any claimant be made a plaintiff in lieu of or in addition to the original plaintiff, and shall proceed to try the suit in the ordinary manner."
+                        "(3)(a) that an issue or issues between the parties be framed and tried, and",
+                        "(3)(b) that any claimant be made a plaintiff in lieu of or in addition to the original plaintiff, and shall proceed to try the suit in the ordinary manner."
                     ]
                 },
                 {
@@ -7242,9 +7237,9 @@
                     "title": "1. Power to state case for Court’s opinion",
                     "description": [
                         "(1) Parties claiming to be interested in the decision of any question of fact or law may enter into an agreement in writing stating such question in the form of a case for the opinion of the Court, and providing that, upon the finding of the Court with respect to such question,—",
-                        "(a) a sum of money fixed by the parties or to be determined by the Court shall be paid by one of the parties to the other of them; or",
-                        "(b) some property, movable or immovable, specified in the agreement, shall be delivered by one of the parties to the other of them; or",
-                        "(c) one or more of the parties shall do, or refrain from doing, some other particular act specified in the agreement.",
+                        "(1)(a) a sum of money fixed by the parties or to be determined by the Court shall be paid by one of the parties to the other of them; or",
+                        "(1)(b) some property, movable or immovable, specified in the agreement, shall be delivered by one of the parties to the other of them; or",
+                        "(1)(c) one or more of the parties shall do, or refrain from doing, some other particular act specified in the agreement.",
                         "(2) Every case stated under this rule shall be divided into consecutively numbered paragraphs, and shall concisely state such facts and specify such documents as may be necessary to enable the Court to decide the question raised thereby."
                     ]
                 },
@@ -7272,9 +7267,9 @@
                     "description": [
                         "(1) The case shall be set down for hearing as a suit instituted in the ordinary manner, and the provisions of this Code shall apply to such suit so far as the same are applicable.",
                         "(2) Where the Court is satisfied, after examination of the parties, or after taking such evidence as it thinks fit—",
-                        "(a) that the agreement was duly executed by them,",
-                        "(b) that they have a bona fide interest in the question stated therein, and",
-                        "(c) that the same is fit to be decided,",
+                        "(2)(a) that the agreement was duly executed by them,",
+                        "(2)(b) that they have a bona fide interest in the question stated therein, and",
+                        "(2)(c) that the same is fit to be decided,",
                         "it shall proceed to pronounce judgment thereon, in the same way as in an ordinary suit, and upon the judgment so pronounced a decree shall follow."
                     ]
                 },
@@ -7293,24 +7288,24 @@
                     "title": "1. Courts and classes of suits to which the Order is to apply",
                     "description": [
                         "(1) This Order shall apply to the following Courts, namely:—",
-                        "(a) High Courts, City Civil Courts and Courts of Small Causes; and",
-                        "(b) other Courts:",
+                        "(1)(a) High Courts, City Civil Courts and Courts of Small Causes; and",
+                        "(1)(b) other Courts:",
                         "Provided that in respect of the Courts referred to in clause (b), the High Court may, by notification in the Official Gazette, restrict the operation of this Order only to such categories of suits as it deems proper, and may also, from time to time, as the circumstances of the case may require, by subsequent notification in the Official Gazette, further restrict, enlarge or vary, the categories of suits to be brought under the operation of this Order as it deems proper.",
                         "(2) Subject to the provisions of sub-rule (1), the Order applies to the following classes of suits, namely:—",
-                        "(a) suits upon bills of exchange, hundies and promissory notes;",
-                        "(b) suits in which the plaintiff seeks only to recover a debt or liquidated demand in money payable by the defendant, with or without interest, arising,—",
-                        "(i) on a written contract, or",
-                        "(ii) on an enactment, where the sum sought to be recovered is a fixed sum of money or in the nature of a debt other than a penalty; or",
-                        "(iii) on a guarantee, where the claim against the principal is in respect of a debt or liquidated demand only."
+                        "(2)(a) suits upon bills of exchange, hundies and promissory notes;",
+                        "(2)(b) suits in which the plaintiff seeks only to recover a debt or liquidated demand in money payable by the defendant, with or without interest, arising,—",
+                        "(2)(b)(i) on a written contract, or",
+                        "(2)(b)(ii) on an enactment, where the sum sought to be recovered is a fixed sum of money or in the nature of a debt other than a penalty; or",
+                        "(2)(b)(iii) on a guarantee, where the claim against the principal is in respect of a debt or liquidated demand only."
                     ]
                 },
                 {
                     "title": "2. Institution of summary suits",
                     "description": [
                         "(1) A suit, to which this Order applies, may if the plaintiff desires to proceed hereunder, be instituted by presenting a plaint which shall contain,—",
-                        "(a) a specific averment to the effect that the suit is filed under this Order;",
-                        "(b) that no relief, which does not fall within the ambit of this rule, has been claimed in the plaint;",
-                        "(c) the following inscription, immediately below the number of the suit in the title of the suit, namely:—",
+                        "(1)(a) a specific averment to the effect that the suit is filed under this Order;",
+                        "(1)(b) that no relief, which does not fall within the ambit of this rule, has been claimed in the plaint;",
+                        "(1)(c) the following inscription, immediately below the number of the suit in the title of the suit, namely:—",
                         "“(Under Order XXXVII of the Code of Civil Procedure, 1908).”",
                         "(2) The summons of the suit shall be in Form No. 4 in Appendix B or in such other Form as may, from time to time, be prescribed.",
                         "(3) The defendant shall not defend the suit referred to in sub-rule (1) unless he enters an appearance and in default of his entering an appearance the allegations in the plaint shall be deemed to be admitted and the plaintiff shall be entitled to a decree for any sum, not exceeding the sum mentioned in the summons, together with interest at the rate specified, if any, up to the date of the decree and such sum for costs as may be determined by the High Court from time to time by rules made in that behalf and such decree may be executed forthwith."
@@ -7327,8 +7322,8 @@
                         "Provided that leave to defend shall not be refused unless the Court is satisfied that the facts disclosed by the defendant do not indicate that he has a substantial defence to raise or that the defence intended to be put up by the defendant is frivolous or vexatious:",
                         "Provided further that, where a part of the amount claimed by the plaintiff is admitted by the defendant to be due from him, leave to defend the suit shall not be granted unless the amount so admitted to be due is deposited by the defendant in Court.",
                         "(6) At the hearing of such summons for judgment,—",
-                        "(a) if the defendant has not applied for leave to defend, or if such application has been made and is refused, the plaintiff shall be entitled to judgment forthwith; or",
-                        "(b) if the defendant is permitted to defend as to the whole or any part of the claim, the Court or Judge may direct him to give such security and within such time as may be fixed by the Court or Judge and that, on failure to give such security within the time specified by the Court or Judge or to carry out such other directions as may have been given by the Court or Judge, the plaintiff shall be entitled to judgment forthwith.",
+                        "(6)(a) if the defendant has not applied for leave to defend, or if such application has been made and is refused, the plaintiff shall be entitled to judgment forthwith; or",
+                        "(6)(b) if the defendant is permitted to defend as to the whole or any part of the claim, the Court or Judge may direct him to give such security and within such time as may be fixed by the Court or Judge and that, on failure to give such security within the time specified by the Court or Judge or to carry out such other directions as may have been given by the Court or Judge, the plaintiff shall be entitled to judgment forthwith.",
                         "(7) The Court or Judge may, for sufficient cause shown by the defendant, excuse the delay of the defendant in entering an appearance or in applying for leave to defend the suit."
                     ]
                 },
@@ -7366,9 +7361,9 @@
                     "description": [
                         "Where at any stage of a suit, other than a suit of the nature referred to in section 16, clauses (a) to (d), the Court is satisfied, by affidavit or otherwise,—",
                         "(a) that the defendant, with intent to delay the plaintiff, or to avoid any process of the Court or to obstruct or delay the execution of any decree that may be passed against him,—",
-                        "(i) has absconded or left the local limits of the jurisdiction of the Court, or",
-                        "(ii) is about to abscond or leave the local limits of the jurisdiction of the Court, or",
-                        "(iii) has disposed of or removed from the local limits of the jurisdiction of the Court his property or any part thereof, or",
+                        "(a)(i) has absconded or left the local limits of the jurisdiction of the Court, or",
+                        "(a)(ii) is about to abscond or leave the local limits of the jurisdiction of the Court, or",
+                        "(a)(iii) has disposed of or removed from the local limits of the jurisdiction of the Court his property or any part thereof, or",
                         "(b) that the defendant is about to leave India under circumstances affording reasonable probability that the plaintiff will or may thereby be obstructed or delayed in the execution of any decree that may be passed against the defendant in the suit,",
                         "the Court may issue a warrant to arrest the defendant and bring him before the Court to show cause why he should not furnish security for his appearance:",
                         "Provided that the defendant shall not be arrested if he pays to the officer entrusted with the execution of the warrant any sum specified in the warrant as sufficient to satisfy the plaintiff's claim; and such sum shall be held in deposit by the Court until the suit is disposed of or until the further order of the Court."
@@ -7401,8 +7396,8 @@
                     "title": "5. Where defendant may be called upon to furnish security for production of property",
                     "description": [
                         "(1) Where, at any stage of a suit, the Court is satisfied, by affidavit or otherwise, that the defendant, with intent to obstruct or delay the execution of any decree that may be passed against him,—",
-                        "(a) is about to dispose of the whole or any part of his property, or",
-                        "(b) is about to remove the whole or any part of his property from the local limits of the jurisdiction of the Court,",
+                        "(1)(a) is about to dispose of the whole or any part of his property, or",
+                        "(1)(b) is about to remove the whole or any part of his property from the local limits of the jurisdiction of the Court,",
                         "the Court may direct the defendant, within a time to be fixed by it, either to furnish security, in such sum as may be specified in the order, to produce and place at the disposal of the Court, when required, the said property or the value of the same, or such portion thereof as may be sufficient to satisfy the decree, or to appear and show cause why he should not furnish security.",
                         "(2) The plaintiff shall, unless the Court otherwise directs, specify the property required to be attached and the estimated value thereof.",
                         "(3) The Court may also in the order direct the conditional attachment of the whole or any portion of the property so specified.",
@@ -7500,9 +7495,9 @@
                         "The Court shall in all cases, except where it appears that the object of granting the injunction would be defeated by the delay, before granting an injunction, direct notice of the application for the same to be given to the opposite party.",
                         "Provided that, where it is proposed to grant an injunction without giving notice of the application to the opposite party, the Court shall record the reasons for its opinion that the object of granting the injunction would be defeated by delay, and require the applicant—",
                         "(a) to deliver to the opposite party, or to send to him by registered post, immediately after the order granting the injunction has been made, a copy of the application for injunction together with—",
-                        "(i) a copy of the affidavit filed in support of the application;",
-                        "(ii) a copy of the plaint;",
-                        "(iii) copies of documents on which the applicant relies, and",
+                        "(a)(i) a copy of the affidavit filed in support of the application;",
+                        "(a)(ii) a copy of the plaint;",
+                        "(a)(iii) copies of documents on which the applicant relies, and",
                         "(b) to file, on the day on which such injunction is granted or on the day immediately following that day, an affidavit stating that the copies aforesaid have been so delivered or sent."
                     ]
                 },
@@ -7536,9 +7531,9 @@
                     "title": "7. Detention, preservation, inspection, etc., of subject-matter of suit",
                     "description": [
                         "(1) The Court may, on the application of any party to a suit, and on such terms as it thinks fit,—",
-                        "(a) make an order for the detention, preservation or inspection of any property which is the subject-matter of such suit, or as to which any question may arise therein;",
-                        "(b) for all or any of the purposes aforesaid authorize any person to enter upon or into any land or building in the possession of any other party to such suit; and",
-                        "(c) for all or any of the purposes aforesaid authorize any samples to be taken, or any observation to be made or experiment to be tried, which may seem necessary or expedient for the purpose of obtaining full information or evidence.",
+                        "(1)(a) make an order for the detention, preservation or inspection of any property which is the subject-matter of such suit, or as to which any question may arise therein;",
+                        "(1)(b) for all or any of the purposes aforesaid authorize any person to enter upon or into any land or building in the possession of any other party to such suit; and",
+                        "(1)(c) for all or any of the purposes aforesaid authorize any samples to be taken, or any observation to be made or experiment to be tried, which may seem necessary or expedient for the purpose of obtaining full information or evidence.",
                         "(2) The provisions as to execution of process shall apply, mutatis mutandis, to persons authorized to enter under this rule."
                     ]
                 },
@@ -7579,8 +7574,8 @@
                         "(h) in any matter where a reference can be made to the Chancellor of a University under any enactment for the time being in force;",
                         "and any order for injunction granted in contravention of these provisions shall be void.\"",
                         "(b) in rule 4 —",
-                        "(i) after the words “by the court”, the words “for reasons to be recorded, either on its own motion or” shall be inserted ;",
-                        "(ii) at the end, the following proviso shall be inserted, namely:—",
+                        "(b)(i) after the words “by the court”, the words “for reasons to be recorded, either on its own motion or” shall be inserted ;",
+                        "(b)(ii) at the end, the following proviso shall be inserted, namely:—",
                         "“Provided that if at any stage of the suit it appears to the Court that the party in whose favour the order of injunction exists is dilating the proceeding or is otherwise abusing the process of Court, it shall set aside the order for injunction.”",
                         "Additional State Amendment: Uttar Pradesh",
                         "Amendment of Order XXXIX of First Schedule.— In the First Schedule to the said Code, in Order XXXIX, in rule 2, in sub-rule (2), in the proviso, clause (d) shall be omitted.",
@@ -7685,9 +7680,9 @@
                         "Explanation.—An order by the Appellate Court for the stay of execution of the decree shall be effective from the date of the communication of such order to the Court of first instance, but an affidavit sworn by the appellant, based on his personal knowledge, stating that an order for the stay of execution of the decree has been made by the Appellate Court shall, pending the receipt from the Appellate Court of the order for the stay of execution or any order to the contrary, be acted upon by the Court of first instance.",
                         "(2) Stay by Court which passed the decree.—Where an application is made for stay of execution of an appealable decree before the expiration of the time allowed for appealing therefrom, the Court which passed the decree may on sufficient cause being shown order the execution to be stayed.",
                         "(3) No order for stay of execution shall be made under sub-rule (1) or sub-rule (2) unless the Court making it is satisfied—",
-                        "(a) that substantial loss may result to the party applying for stay of execution unless the order is made;",
-                        "(b) that the application has been made without unreasonable delay; and",
-                        "(c) that security has been given by the applicant for the due performance of such decree or order as may ultimately be binding upon him.",
+                        "(3)(a) that substantial loss may result to the party applying for stay of execution unless the order is made;",
+                        "(3)(b) that the application has been made without unreasonable delay; and",
+                        "(3)(c) that security has been given by the applicant for the due performance of such decree or order as may ultimately be binding upon him.",
                         "(4) Subject to the provision of sub-rule (3), the Court may make an ex parte order for stay of execution pending the hearing of the application.",
                         "(5) Notwithstanding anything contained in the foregoing sub-rules, where the appellant fails to make the deposit or furnish the security specified in sub-rule (3) of rule 1, the Court shall not make an order staying the execution of the decree."
                     ]
@@ -7864,9 +7859,9 @@
                     "title": "27. Production of additional evidence in Appellate Court",
                     "description": [
                         "(1) The parties to an appeal shall not be entitled to produce additional evidence, whether oral or documentary, in the Appellate Court. But if —",
-                        "(a) the Court from whose decree the appeal is preferred has refused to admit evidence which ought to have been admitted, or",
-                        "(aa) the party seeking to produce additional evidence establishes that notwithstanding the exercise of due diligence, such evidence was not within his knowledge or could not, after the exercise of due diligence, be produced by him at the time when the decree appealed against was passed, or",
-                        "(b) the Appellate Court requires any document to be produced or any witness to be examined to enable it to pronounce judgment, or for any other substantial cause,",
+                        "(1)(a) the Court from whose decree the appeal is preferred has refused to admit evidence which ought to have been admitted, or",
+                        "(1)(aa) the party seeking to produce additional evidence establishes that notwithstanding the exercise of due diligence, such evidence was not within his knowledge or could not, after the exercise of due diligence, be produced by him at the time when the decree appealed against was passed, or",
+                        "(1)(b) the Appellate Court requires any document to be produced or any witness to be examined to enable it to pronounce judgment, or for any other substantial cause,",
                         "the Appellate Court may allow such evidence or document to be produced, or witness to be examined.",
                         "(2) Wherever additional evidence is allowed to be produced by an Appellate Court, the Court shall record the reason for its admission."
                     ]
@@ -8057,8 +8052,8 @@
                     "title": "3. Certificate as to value or fitness",
                     "description": [
                         "(1) Every petition shall state the grounds of appeal and pray for a certificate—",
-                        "(i) that the case involves a substantial question of law of general importance, and",
-                        "(ii) that in the opinion of the Court the said question needs to be decided by the Supreme Court.",
+                        "(1)(i) that the case involves a substantial question of law of general importance, and",
+                        "(1)(ii) that in the opinion of the Court the said question needs to be decided by the Supreme Court.",
                         "(2) Upon receipt of such petition, the Court shall direct notice to be served on the opposite party to show cause why the said certificate should not be granted."
                     ]
                 },
@@ -8084,8 +8079,8 @@
                     "title": "7. Security and deposit required on grant of certificate",
                     "description": [
                         "(1) Where the certificate is granted, the applicant shall, within ninety days or such further period, not exceeding sixty days, as the Court may upon cause shown allow; from the date of the decree complained of, or within six weeks from the date of the grant of the certificate whichever is the later date—",
-                        "(a) furnish security in cash or in Government securities for the costs of the respondent, and",
-                        "(b) deposit the amount required to defray the expense of translating, transcribing, indexing, printing, and transmitting to the Supreme Court a correct copy of the whole record of the suit, except—",
+                        "(1)(a) furnish security in cash or in Government securities for the costs of the respondent, and",
+                        "(1)(b) deposit the amount required to defray the expense of translating, transcribing, indexing, printing, and transmitting to the Supreme Court a correct copy of the whole record of the suit, except—",
                         "(1) formal documents directed to be excluded by any Rule of the Supreme Court in force for the time being;",
                         "(2) papers which the parties agree to exclude;",
                         "(3) accounts, or portions of accounts, which the officer empowered by the Court for that purpose considers unnecessary, and which the parties have not specifically asked to be included;",
@@ -8155,8 +8150,8 @@
                     "description": [
                         "(1) Where at any time during the pendency of the appeal the security furnished by either party appears inadequate, the Court may, on the application of the other party, require further security.",
                         "(2) In default of such further security being furnished as required by the Court,—",
-                        "(a) if the original security was furnished by the appellant, the Court may, on the application of the respondent, execute the decree appealed from as if the appellant had furnished no such security;",
-                        "(b) if the original security was furnished by the respondent, the Court shall, so far as may be practicable, stay the further execution of the decree, and restore the parties to the position in which they respectively were when the security which appears inadequate was furnished, or give such direction respecting the subject-matter of the appeal as it thinks fit."
+                        "(2)(a) if the original security was furnished by the appellant, the Court may, on the application of the respondent, execute the decree appealed from as if the appellant had furnished no such security;",
+                        "(2)(b) if the original security was furnished by the respondent, the Court shall, so far as may be practicable, stay the further execution of the decree, and restore the parties to the position in which they respectively were when the security which appears inadequate was furnished, or give such direction respecting the subject-matter of the appeal as it thinks fit."
                     ]
                 },
                 {
@@ -8250,9 +8245,9 @@
                     "title": "1. Application for review of judgment",
                     "description": [
                         "(1) Any person considering himself aggrieved—",
-                        "(a) by a decree or order from which an appeal is allowed, but from which no appeal has been preferred,",
-                        "(b) by a decree or order from which no appeal is allowed, or",
-                        "(c) by a decision on a reference from a Court of Small Causes,",
+                        "(1)(a) by a decree or order from which an appeal is allowed, but from which no appeal has been preferred,",
+                        "(1)(b) by a decree or order from which no appeal is allowed, or",
+                        "(1)(c) by a decision on a reference from a Court of Small Causes,",
                         "and who, from the discovery of new and important matter or evidence which, after the exercise of due diligence, was not within his knowledge or could not be produced by him at the time when the decree was passed or order made, or on account of some mistake or error apparent on the face of the record or for any other sufficient reason, desires to obtain a review of the decree passed or order made against him, may apply for a review of judgment to the Court which passed the decree or made the order.",
                         "(2) A party who is not appealing from a decree or order may apply for a review of judgment notwithstanding the pendency of an appeal by some other party except where the ground of such appeal is common to the applicant and the appellant, or when, being respondent, he can present to the Appellate Court the case on which he applied for the review.",
                         "Explanation.—The fact that the decision on a question of law on which the judgment of the Court is based has been reversed or modified by the subsequent decision of a superior Court in any other case shall not be a ground for the review of such judgment."
@@ -8378,9 +8373,9 @@
                         "The provisions hereinafter specified shall not extend to Court constituted under the Provincial Small Cause Courts Act 1887 (9 of 1887) or under the Berar Small Cause Courts Law, 1905 or to Courts exercising the jurisdiction of a Court of Small Causes under the said Act or Law or to Courts in any part of India to which the said Act does not extend exercising a corresponding jurisdiction, that is to say—",
                         "Exemptions",
                         "(a) So much of this Schedule as relates to—",
-                        "(i) Suits excepted from the cognizance of a Court of Small Causes or the execution of decrees in such suits;",
-                        "(ii) The execution of decrees against immovable property or the interest of a partner in partnership property;",
-                        "(iii) The settlement of issues.",
+                        "(a)(i) Suits excepted from the cognizance of a Court of Small Causes or the execution of decrees in such suits;",
+                        "(a)(ii) The execution of decrees against immovable property or the interest of a partner in partnership property;",
+                        "(a)(iii) The settlement of issues.",
                         "(b) The following rules and orders shall not apply:",
                         "Order II, rule 1 (Frame of suit);",
                         "Order X, rule 3 (Record of examination of parties);",
