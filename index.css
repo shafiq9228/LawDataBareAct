@@ -26,6 +26,11 @@ h2 {
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+@media screen and (max-width:600px) {
+    .container{
+        margin: 1rem;
+    }
+}
 
 .accordion-header {
     background-color: #2c3e5044;
@@ -81,7 +86,7 @@ h2 {
 
 .accordion-content {
     display: none;
-    padding: 15px;
+    padding: 8px;
     border-top: 1px solid #ddd;
     background-color: white;
 }
