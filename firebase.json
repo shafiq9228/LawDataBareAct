@@ -1,0 +1,70 @@
+{
+  "hosting": [
+    {
+      "public": "user",
+      "target": "user",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "public": "bareacts",
+      "target": "bareacts",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "public": "website",
+      "target": "website",
+      "cleanUrls": true,
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "/blog-detail/**",
+          "destination": "/blog-detail.html"
+        },
+        {
+          "source": "/blog-sitemap.xml",
+          "function": "app"
+        },
+        {
+          "source": "/sitemap.xml",
+          "function": "app"
+        },
+        {
+          "source": "/blog-post/**",
+          "function": "app"
+        },
+        {
+          "source": "/practice-area/**",
+          "destination": "/practice-area/index.html"
+        },
+        {
+          "source": "/blog-image/**",
+          "function": "app"
+        }
+      ]
+    }
+  ]
+}
